@@ -1,0 +1,4309 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ar" lang="ar">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>مقدمة في الأمن السيبراني</title>
+        <style type="text/css">
+            * {
+                margin: 0;
+                padding: 0;
+                text-indent: 0;
+            }
+            body {
+                background-color: #ae8251;
+            }
+            .s1 {
+                color: black;
+                font-family: "Times New Roman", serif;
+                font-style: normal;
+                font-weight: normal;
+                text-decoration: none;
+                font-size: 10pt;
+            }
+            h2 {
+                color: #ffe17f;
+                font-family: Calibri, sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                text-decoration: none;
+                font-size: 44pt;
+            }
+            .s2 {
+                color: #ffe17f;
+                font-family: Calibri, sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                text-decoration: none;
+                font-size: 44pt;
+                vertical-align: -3pt;
+            }
+            .s3 {
+                color: #fff;
+                font-family: Calibri, sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                text-decoration: none;
+                font-size: 12pt;
+            }
+            .s4 {
+                color: #fff;
+                font-family: Calibri, sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                text-decoration: none;
+                font-size: 12pt;
+                vertical-align: -7pt;
+            }
+            .s5 {
+                color: #fff;
+                font-family: Calibri, sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                text-decoration: none;
+                font-size: 12pt;
+                vertical-align: 1pt;
+            }
+            .s6 {
+                color: #fff;
+                font-family: Calibri, sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                text-decoration: none;
+                font-size: 14pt;
+            }
+            .s7 {
+                color: #c8a986;
+                font-family: "Lucida Sans", sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                text-decoration: none;
+                font-size: 12pt;
+            }
+            h4 {
+                color: #fff;
+                font-family: Calibri, sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                text-decoration: none;
+                font-size: 24pt;
+            }
+            .s8 {
+                color: #fff;
+                font-family: Calibri, sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                text-decoration: none;
+                font-size: 24pt;
+                vertical-align: -7pt;
+            }
+            .s9 {
+                color: #fff;
+                font-family: Calibri, sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                text-decoration: none;
+                font-size: 24pt;
+                vertical-align: -2pt;
+            }
+            .s10 {
+                color: #fff;
+                font-family: Calibri, sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                text-decoration: none;
+                font-size: 24pt;
+                vertical-align: -12pt;
+            }
+            .s11 {
+                color: #fff;
+                font-family: Calibri, sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                text-decoration: none;
+                font-size: 24pt;
+                vertical-align: -11pt;
+            }
+            .s12 {
+                color: #fff;
+                font-family: Calibri, sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                text-decoration: none;
+                font-size: 11pt;
+                vertical-align: 1pt;
+            }
+            .s13 {
+                color: #fff;
+                font-family: Calibri, sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                text-decoration: none;
+                font-size: 11pt;
+            }
+            .s14 {
+                color: #008fd5;
+                font-family: Calibri, sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                text-decoration: none;
+                font-size: 14pt;
+            }
+            .p,
+            p {
+                color: #231f20;
+                font-family: Calibri, sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                text-decoration: none;
+                font-size: 12pt;
+                margin: 0pt;
+            }
+            .s15 {
+                color: #231f20;
+                font-family: Calibri, sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                text-decoration: none;
+                font-size: 12pt;
+            }
+            .s16 {
+                color: #231f20;
+                font-family: Calibri, sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                text-decoration: none;
+                font-size: 12pt;
+                vertical-align: 1pt;
+            }
+            .s17 {
+                color: #231f20;
+                font-family: Calibri, sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                text-decoration: none;
+                font-size: 13pt;
+            }
+            .s18 {
+                color: #fff;
+                font-family: Calibri, sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                text-decoration: none;
+                font-size: 11pt;
+            }
+            .s19 {
+                color: #fff;
+                font-family: Calibri, sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                text-decoration: none;
+                font-size: 11pt;
+                vertical-align: 1pt;
+            }
+            .s20 {
+                color: #374e5a;
+                font-family: Calibri, sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                text-decoration: none;
+                font-size: 15pt;
+            }
+            .s21 {
+                color: #374e5a;
+                font-family: "Segoe UI", sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                text-decoration: none;
+                font-size: 18pt;
+            }
+            .s22 {
+                color: #ed0c6e;
+                font-family: Calibri, sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                text-decoration: none;
+                font-size: 11pt;
+            }
+            .s23 {
+                color: #ed0c6e;
+                font-family: Calibri, sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                text-decoration: none;
+                font-size: 11pt;
+                vertical-align: 1pt;
+            }
+            .s24 {
+                color: #fff;
+                font-family: Calibri, sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                text-decoration: none;
+                font-size: 11pt;
+            }
+            h1 {
+                color: #ed1a3a;
+                font-family: Calibri, sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                text-decoration: none;
+                font-size: 54pt;
+            }
+            .s26 {
+                color: #ed0c6e;
+                font-family: Calibri, sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                text-decoration: none;
+                font-size: 11pt;
+                vertical-align: -6pt;
+            }
+            .s27 {
+                color: black;
+                font-family: Calibri, sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                text-decoration: none;
+                font-size: 10pt;
+            }
+            h3 {
+                color: #fff;
+                font-family: Calibri, sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                text-decoration: none;
+                font-size: 26pt;
+            }
+            .s28 {
+                color: #808285;
+                font-family: Calibri, sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                text-decoration: none;
+                font-size: 20pt;
+            }
+            .s29 {
+                color: #231f20;
+                font-family: Calibri, sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                text-decoration: none;
+                font-size: 14pt;
+            }
+            .s30 {
+                color: #fff;
+                font-family: Calibri, sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                text-decoration: none;
+                font-size: 14pt;
+                vertical-align: 1pt;
+            }
+            .s31 {
+                color: #fff;
+                font-family: Calibri, sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                text-decoration: none;
+                font-size: 14pt;
+            }
+            .s32 {
+                color: #231f20;
+                font-family: Calibri, sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                text-decoration: none;
+                font-size: 12pt;
+            }
+            .s33 {
+                color: #231f20;
+                font-family: Calibri, sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                text-decoration: none;
+                font-size: 12pt;
+                vertical-align: 1pt;
+            }
+            .s34 {
+                color: #008fd5;
+                font-family: Calibri, sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                text-decoration: none;
+                font-size: 12pt;
+            }
+            .s35 {
+                color: black;
+                font-style: normal;
+                font-weight: normal;
+                text-decoration: none;
+            }
+            .s36 {
+                color: #008fd5;
+                font-family: Calibri, sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                text-decoration: none;
+                font-size: 14pt;
+                vertical-align: 1pt;
+            }
+            table,
+            tbody {
+                vertical-align: top;
+                overflow: visible;
+            }
+        </style>
+    </head>
+    <body>
+        <p
+            class="s1"
+            style="padding-left: 20pt; text-indent: 0pt; text-align: left"
+        >
+            <span /> <span />
+        </p>
+        <p style="text-indent: 0pt; text-align: left"><br /></p>
+        <p style="text-indent: 0pt; line-height: 1pt; text-align: left">
+            <span />
+        </p>
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <h2
+            style="
+                padding-top: 20pt;
+                padding-left: 137pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            يناربيسلا نمألا :<span class="s2">ىلوألا ةدحولا</span>
+        </h2>
+        <p style="padding-top: 13pt; text-indent: 0pt; text-align: left">
+            <br />
+        </p>
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p
+            class="s3"
+            style="
+                padding-left: 107pt;
+                text-indent: 0pt;
+                line-height: 71%;
+                text-align: right;
+            "
+        >
+            ،نيمجاهملا عاونأ زييمت نم نكمتتس امك ،هب حرصملا ريغ لوصولا نم
+            تامولعملا ةيامح ةيفيك <span class="s4">ةدحولً </span>ا هذه يف ملعتتس
+            <span class="s5">.</span>ةيصخشلا تامولعملا ةيامحل ةفلتخم اقرط
+            فشكتستسو
+        </p>
+        <p
+            class="s3"
+            style="
+                padding-top: 5pt;
+                padding-left: 107pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            تنرتنإلا ربع تامولعملا ةكراشم قرط ىلع فرعتتس مث
+            <span class="s5">.</span>اهبنجتو ةراضلا جماربلا فاشتكا ةيفيك ملعتتس
+            ،كلذ ىلع ةوالع <span class="s5">.</span>حفصتملا ةطساوب ةنزخملا
+            تانايبلا عم لماعتلا ةيفيكو
+        </p>
+        <p
+            class="s5"
+            style="
+                padding-top: 4pt;
+                padding-left: 137pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            .<span class="s3"
+                >ةيمقرلا ةنطاوملا تايكولسو ميق ىلع رثؤت دق تنرتنإلا ربع اهكراشت
+                يتلا ةيصخشلا كتامولعم نأ ملعتتس ،ارًيخأ</span
+            >
+        </p>
+        <p style="text-indent: 0pt; text-align: left"><br /></p>
+        <p style="text-indent: 0pt; text-align: left"><br /></p>
+        <p
+            class="s6"
+            style="padding-left: 137pt; text-indent: 0pt; text-align: right"
+        >
+            تاودألا
+        </p>
+        <p
+            class="s3"
+            style="
+                padding-top: 3pt;
+                padding-left: 137pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            زودنيو تفوسوركيام &gt;
+        </p>
+        <p
+            class="s3"
+            style="
+                padding-top: 1pt;
+                padding-left: 143pt;
+                text-indent: 0pt;
+                text-align: left;
+            "
+        >
+            )Microsoft Windows(
+        </p>
+        <p
+            class="s6"
+            style="
+                padding-top: 2pt;
+                padding-left: 137pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            ملعتلا فادهأ
+        </p>
+        <p
+            class="s5"
+            style="
+                padding-top: 2pt;
+                padding-left: 137pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            :<span class="s3">ةدحولا هذه يف ملعتتس</span>
+        </p>
+        <p
+            class="s5"
+            style="
+                padding-top: 4pt;
+                padding-left: 137pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            .<span class="s3">هتيمهأو يناربيسلا نمألا ةيهام &gt;</span>
+        </p>
+        <p
+            class="s5"
+            style="
+                padding-top: 4pt;
+                padding-left: 137pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            .<span class="s3">اهعاونأو ةينورتكلإلا مئارجلا ةيهام &gt;</span>
+        </p>
+        <p
+            class="s3"
+            style="
+                padding-top: 5pt;
+                padding-left: 98pt;
+                text-indent: -8pt;
+                text-align: right;
+            "
+        >
+            يف تاقارتخا ىلع ةلثمأو ينمألا قارتخإلا &gt;
+            <span class="s5">.</span>ةريبكلا تاسسؤملا
+        </p>
+        <p
+            class="s5"
+            style="
+                padding-top: 4pt;
+                padding-left: 137pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            .<span class="s3">اهيلع ةلثمأو ةينورتكلإلا تامجهلا &gt;</span>
+        </p>
+        <p
+            class="s3"
+            style="
+                padding-top: 5pt;
+                padding-left: 98pt;
+                text-indent: -8pt;
+                text-align: right;
+            "
+        >
+            مئارجلا نم ةياقولل اهب ذخؤي يتلا ريبادتلا &gt;
+            <span class="s5">.</span>ةينورتكلإلا
+        </p>
+        <p
+            class="s5"
+            style="
+                padding-top: 4pt;
+                padding-left: 98pt;
+                text-indent: 0pt;
+                line-height: 138%;
+                text-align: right;
+            "
+        >
+            .<span class="s3"
+                >تنرتنإلا ربع حفصتملا اهعمجي يتلا تانايبلا &gt; اهنم ةياقولا
+                قرطو ةراضلا تايجمربلا ةيهام &gt;</span
+            >
+        </p>
+        <p
+            class="s5"
+            style="
+                padding-left: 137pt;
+                text-indent: 0pt;
+                line-height: 10pt;
+                text-align: right;
+            "
+        >
+            . <span class="s3">اهعم لماعتلاو</span>
+        </p>
+        <p
+            class="s3"
+            style="
+                padding-top: 5pt;
+                padding-left: 98pt;
+                text-indent: -8pt;
+                text-align: right;
+            "
+        >
+            نم يصخشلا بساحلا زاهج ةيامح ةيفيك &gt;
+            <span class="s5">.</span>ةينورتكلإلا مئارجلا
+        </p>
+        <p
+            class="s5"
+            style="
+                padding-top: 4pt;
+                padding-left: 98pt;
+                text-indent: 0pt;
+                line-height: 138%;
+                text-align: right;
+            "
+        >
+            .<span class="s3"
+                >نمآ لكشب ةيعامتجالا تاكبشلا حفصت ةيفيك &gt; ةيفيكو ةيمقرلا
+                ةنطاوملا تايكولسو ميق &gt;</span
+            >
+        </p>
+        <p
+            class="s5"
+            style="
+                padding-left: 137pt;
+                text-indent: 0pt;
+                line-height: 10pt;
+                text-align: right;
+            "
+        >
+            .<span class="s3">اهيلع ةظفاحملا</span>
+        </p>
+        <p style="text-indent: 0pt; text-align: left"><br /></p>
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p
+            class="s7"
+            style="padding-left: 137pt; text-indent: 0pt; text-align: right"
+        >
+            12
+        </p>
+        <p style="text-indent: 0pt; text-align: left"><br /></p>
+        <p style="text-indent: 0pt; line-height: 1pt; text-align: left">
+            <span />
+        </p>
+        <p style="text-indent: 0pt; text-align: left"><br /></p>
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <h4 style="text-indent: 0pt; line-height: 78%; text-align: right">
+            �<span class="s8">ي </span>ا�<span class="s9">ب </span>يسلا نمألا
+            �<span class="s8">ي </span>ةمدقم
+        </h4>
+        <p style="text-indent: 0pt; text-align: left" />
+        <p
+            class="s10"
+            style="
+                padding-top: 4pt;
+                text-indent: 0pt;
+                line-height: 40%;
+                text-align: right;
+            "
+        >
+            ن <span class="s11">ن </span><span class="s12">:</span
+            ><span class="s13">لوألا سردلا</span>
+        </p>
+        <p style="text-indent: 0pt; text-align: left" />
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p
+            class="s14"
+            style="padding-left: 490pt; text-indent: 0pt; text-align: right"
+        >
+            يناربيسلا نمألا
+        </p>
+        <p
+            style="
+                padding-top: 2pt;
+                padding-left: 336pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            ةيامحب )Cybersecurity( <b>يناربيسلا نمألا </b>موهفم قلعتي ريغ لوصولا
+            نم تانايبلاو جماربلاو تاكبشلاو بساحلا ةزهجأ تامولعملا ىلع لوصحلا ىلإ
+            فدهي دق يذلاو ،هب حرصملا
+        </p>
+        <p
+            style="
+                padding-left: 137pt;
+                text-indent: 0pt;
+                line-height: 12pt;
+                text-align: right;
+            "
+        >
+            لوصح
+        </p>
+        <p
+            style="
+                padding-left: 137pt;
+                text-indent: 0pt;
+                line-height: 4pt;
+                text-align: right;
+            "
+        >
+            ً
+        </p>
+        <p style="padding-left: 137pt; text-indent: 0pt; text-align: right">
+            لل نيمدختسملا زازتبا وأ اهفالتإ وًأ اهرييغت وأ ةساسحلا
+        </p>
+        <p
+            class="s16"
+            style="
+                padding-left: 362pt;
+                text-indent: 0pt;
+                line-height: 13pt;
+                text-align: right;
+            "
+        >
+            .<span class="p"
+                >امومع ةسسؤملا تايلمع ليطعت انايحأو لب ،لاومألا ىلع</span
+            >
+        </p>
+        <p
+            style="
+                padding-top: 4pt;
+                padding-left: 336pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            متت يتلا تاسرامملا عيمج نع يناربيسلا نمألا حلطصم ربِّعيُ يف لثمتت
+            يتلا تامجهلاو رطاخملا نم تامولعملا ةيامحل عورشملا ريغ مادختسالا ضرغب
+            هب حرصملا ريغ لوصولا ريوزت وأ هب حرصملا ريغ خسنلا وأ فالتإلا وأ
+            ليدعتلا وأ <span class="s16">.</span>تامولعملا
+        </p>
+        <p style="text-indent: 0pt; text-align: left"><br /></p>
+        <p
+            class="s17"
+            style="padding-left: 490pt; text-indent: 0pt; text-align: right"
+        >
+            يناربيسلا نمألا ةيمهأ
+        </p>
+        <p
+            style="
+                padding-top: 4pt;
+                padding-left: 66pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            ،عاطقنا نود نيمدختسملل اهرفاوت ةرورضو ،ةكبشلا ىلع ةرفوتملا
+            تامولعملاو تانايبلا ةيمهأ ةدايزب يناربيسلا نمألا ةيمهأ دادزت
+            تامولعملا ةيمهأ تداز املكو ،رمتسم لكشب تامولعملاو تانايبلا كلت ىلإ
+            لوصولل نوجاتحي نيذلا نيمدختسملا ددع ىلإ ةفاضإلاب
+            <span class="s16">.</span>كلذ ريغو نيمدختسملا نع اهبجح وأ اهتقرس
+            فدهب ةيبوساحلا ةنصرقلا تامجهل ةضرع تناكاملك
+        </p>
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p style="text-indent: 0pt; text-align: left"><br /></p>
+        <p
+            class="s18"
+            style="padding-left: 12pt; text-indent: -8pt; text-align: right"
+        >
+            )high availability( ةيلاعلا ةيزهاجلا ةمظنأ فدهت تامولعملا ىلإ لوصولا
+            ةيناكمإ ىلع ظافحلا ىلإ
+        </p>
+        <p
+            class="s18"
+            style="padding-left: 9pt; text-indent: 6pt; text-align: right"
+        >
+            ةمدخلا عاطقنا مدع نمضت امك ،تاقوألا عيمج يف ءانثأ وأ ةزهجألا لطعت وأ
+            يئابرهكلا رايتلا عاطقنا ببسب تامجه عنم اضًيأ نمضتتو ،ماظنلا تاثيدحت
+            تايلمع ماظنلا فادهتسا ىلع دمتعت يتلا كلتك ةمدخلا فاقيإ
+        </p>
+        <p
+            class="s19"
+            style="text-indent: 0pt; line-height: 14pt; text-align: right"
+        >
+            .<span class="s18">ايًرابجإ هليغشت فاقيإ ىلإ يدؤت لئاسرب</span>
+        </p>
+        <p style="text-indent: 0pt; text-align: left" />
+        <p
+            class="s16"
+            style="
+                padding-top: 3pt;
+                padding-left: 72pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            .<span class="p"
+                >ةرورضلا بسح اهل ةبسانملا ةباجتسالاب مايقلاو اهفاشتكاو ةيجراخلاو
+                ةيلخادلا تاديدهتلا عنم يف يناربيسلا نمألل مهملا رودلا
+                لثمتي</span
+            >
+        </p>
+        <p style="padding-top: 13pt; text-indent: 0pt; text-align: left">
+            <br />
+        </p>
+        <p
+            class="s14"
+            style="padding-left: 490pt; text-indent: 0pt; text-align: right"
+        >
+            CIA ةيامحلا ثلثم
+        </p>
+        <p
+            style="
+                padding-top: 2pt;
+                padding-left: 72pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            ،اهرفاوتو اهلماكتو اهتيرس ثيح نم تانايبلاو تامولعملل ةنزاوتم ةيامح
+            ريفوت ىلع زيكرتلا وه ينورتكلإلا نامألل يساسألا فدهلا نإ فرعتتسو لعاف
+            لكشب تامولعملا نمأ تاسايس ذيفنت ىلع زيكرتلا عم كلذو ،)CIA Triad(
+            <b>CIA ةيامحلا ثلثم </b>مساب فرعي اذهو
+            <span class="s16">.</span>رصانعلا هذه لك ىلع ليصفتلاب
+        </p>
+        <p style="padding-top: 3pt; text-indent: 0pt; text-align: left">
+            <br />
+        </p>
+        <p
+            class="s17"
+            style="padding-left: 137pt; text-indent: 0pt; text-align: right"
+        >
+            )Confidentiality( ةيرسلا
+        </p>
+        <p
+            style="
+                padding-top: 4pt;
+                padding-left: 72pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            متي كلذ قيقحتلو ،اهيلع عالطالاب مهل حومسملاو طقف اهب نيينعملا
+            صاخشألل تامولعملاو تانايبلا ةحاتإ يه ةيرسلا
+            <span class="s16">.</span>تايحالصلا يوذ صاخشألا مئاوقو ،رورملا ةملكو
+            مدختسملا مسا لثم ةفلتخم بيلاسأ مادختسا
+        </p>
+        <p style="padding-top: 8pt; text-indent: 0pt; text-align: left">
+            <br />
+        </p>
+        <p
+            class="s17"
+            style="padding-left: 137pt; text-indent: 0pt; text-align: right"
+        >
+            )Integrity( لماكتلا
+        </p>
+        <p
+            style="
+                padding-top: 4pt;
+                padding-left: 72pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            صاخشألا لبق نم الإ اهليدعت ةيناكمإ مدع نم دكأتلاو ،تامولعملا ةحصو
+            ةقد ىلع ظافحلا ىلإ لماكتلا حلطصم ريشي ،)Permissions(
+            <b>تايحالصلاو </b>تانوذألا ديدحت
+            <span class="s16">:</span>تامولعملاو تانايبلا لماكت ىلع ظافحلا
+            بيلاسأ نمو ،كلذب نيلوخملا <span class="s16">.</span>اهريغو
+            ،)Encryption( <b>ريفشتلاو</b>
+        </p>
+        <p style="padding-top: 8pt; text-indent: 0pt; text-align: left">
+            <br />
+        </p>
+        <p
+            class="s17"
+            style="padding-left: 137pt; text-indent: 0pt; text-align: right"
+        >
+            )Availability( رفاوتلا
+        </p>
+        <p
+            style="
+                padding-top: 4pt;
+                padding-left: 72pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            هيلع تامولعم ماظن يأ نإ ثيح ،اهمادختسال ةقوثوم ةقيرطبو بسانملا تقولا
+            يف تامولعملل لوصولا نامض ينعي رفاوتلا <span class="s16">.</span>هل
+            يساسألا ضرغلا يدؤيل كلذو اهيلإ ةجاحلا دنع تامولعملا ريفوت
+        </p>
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p
+            class="s20"
+            style="text-indent: 0pt; line-height: 15pt; text-align: left"
+        >
+            )Integrity( لماكتلا
+        </p>
+        <p style="text-indent: 0pt; text-align: left" />
+        <p
+            class="s20"
+            style="text-indent: 0pt; line-height: 15pt; text-align: left"
+        >
+            )Confidentiality( ةيرسلا
+        </p>
+        <p style="text-indent: 0pt; text-align: left" />
+        <p
+            class="s21"
+            style="
+                padding-top: 1pt;
+                text-indent: 5pt;
+                line-height: 90%;
+                text-align: right;
+            "
+        >
+            ثلثم ةيامحلا
+        </p>
+        <p
+            class="s21"
+            style="text-indent: 0pt; line-height: 22pt; text-align: right"
+        >
+            Triad
+        </p>
+        <p style="text-indent: 0pt; text-align: left" />
+        <p
+            class="s20"
+            style="text-indent: 0pt; line-height: 15pt; text-align: left"
+        >
+            )Availability( رفاوتلا
+        </p>
+        <p style="text-indent: 0pt; text-align: left" />
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p
+            style="
+                padding-top: 5pt;
+                padding-left: 72pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            خسنلاو ،تانايبلل ةفيضتسملا ةزهجألا ةمالس ىلع ظافحلا ،تامولعملاو
+            تانايبلا رفاوت نامضل ةذختملا تاءارجإلا ةلثمأ نمو
+            <span class="s16">.</span>نكمأ ام نيمدختسملا لوصو ليهستل ةكبشلا
+            ةءافك نيسحتو ،ماظنلا تاثيدحتو ،يطايتحالا
+        </p>
+        <p style="padding-top: 13pt; text-indent: 0pt; text-align: left">
+            <br />
+        </p>
+        <p
+            class="s14"
+            style="padding-left: 490pt; text-indent: 0pt; text-align: right"
+        >
+            ةينورتكلإلا مئارجلا
+        </p>
+        <p
+            style="
+                padding-top: 3pt;
+                padding-left: 66pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            ريغ عــــيزوتلا وأ لايتحالا لثم ةينوناق ريغ تاياغ قيقحتل ةادأك
+            بساحلا زاهج مادختسا يه )Cybercrime( <b>ةينورتكلإلا مئارجلا </b
+            ><span class="s16">.</span>ةيصوصخلا كاهتنا وأ تايوهلا ةقرس وأ رشنلاو
+            عبطلا قوقحب ةيمحملا داوملل ينوناقلا
+        </p>
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p
+            class="s19"
+            style="text-indent: 0pt; line-height: 12pt; text-align: right"
+        >
+            :<span class="s18">ةينورتكلإلا مئارجلا عاونأ</span>
+        </p>
+        <p style="text-indent: 0pt; text-align: left" />
+        <p
+            class="s16"
+            style="
+                padding-top: 3pt;
+                padding-left: 66pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            .<span class="p"
+                >مئارجلا كلت ذيفنتل بساحلا ةزهجأ تاكبشو ةيمقرلا ةزهجألا مادختسا
+                يف يديلقتلا يمارجإلا طاشنلا نع تنرتنإلا مئارج فلتختو نيمرجملا نم
+                عونلا سفن ةطساوب ذفنت اهنأ الإ ،ةيديلقتلا ةميرجلا نع امًامت
+                فلتخم عباط تاذ ةينورتكلإلا ةميرجلا نوك نم مغرلا ىلع </span
+            >.<span class="p">بابسألا سفنلو</span>
+        </p>
+        <p style="text-indent: 0pt; text-align: left"><br /></p>
+        <table
+            style="border-collapse: collapse; margin-left: 66.5244pt"
+            cellspacing="0"
+        >
+            <tr style="height: 79pt">
+                <td
+                    style="
+                        width: 360pt;
+                        border-top-style: solid;
+                        border-top-width: 1pt;
+                        border-top-color: #ed0972;
+                        border-left-style: solid;
+                        border-left-width: 1pt;
+                        border-left-color: #ed0972;
+                        border-bottom-style: solid;
+                        border-bottom-width: 1pt;
+                        border-bottom-color: #ed0972;
+                    "
+                    bgcolor="#FFFFFF"
+                >
+                    <p
+                        style="
+                            padding-top: 5pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <br />
+                    </p>
+                    <p
+                        class="s22"
+                        style="
+                            padding-left: 5pt;
+                            padding-right: 5pt;
+                            text-indent: 0pt;
+                            text-align: right;
+                        "
+                    >
+                        ضرغب ،ةيحضلا اهعم لماعتي ةقوثوم ةهج رود ينورتكلإلا
+                        مرجملا صمقتي امدنع لايتحالا اذه ثدحي وأ تيبلا ناونعو
+                        ةيفرصملا رورمُلا تاملك لثم نيعم مدختسم نًع ةيصخش تامولعم
+                        ىلع لوصحلا <span class="s23">.</span>ةيمسرلا عقاوملا
+                        دلقت يتلا لايتحالا عقاوم لالخ نم ةداع ةيلمعلا هذه متت
+                        <span class="s23">.</span>يصخشلا مقرلا
+                    </p>
+                </td>
+                <td
+                    style="
+                        width: 110pt;
+                        border-top-style: solid;
+                        border-top-width: 1pt;
+                        border-top-color: #ed0972;
+                        border-bottom-style: solid;
+                        border-bottom-width: 1pt;
+                        border-bottom-color: #ffffff;
+                    "
+                    bgcolor="#ED0972"
+                >
+                    <p
+                        style="
+                            padding-top: 10pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <br />
+                    </p>
+                    <p
+                        class="s24"
+                        style="
+                            padding-right: 20pt;
+                            text-indent: 0pt;
+                            text-align: right;
+                        "
+                    >
+                        ينورتكلإلا لايتحالا
+                    </p>
+                    <p
+                        class="s24"
+                        style="
+                            padding-top: 4pt;
+                            padding-right: 17pt;
+                            text-indent: 0pt;
+                            text-align: right;
+                        "
+                    >
+                        )Phishing Scams(
+                    </p>
+                </td>
+            </tr>
+            <tr style="height: 79pt">
+                <td
+                    style="
+                        width: 360pt;
+                        border-top-style: solid;
+                        border-top-width: 1pt;
+                        border-top-color: #ed0972;
+                        border-left-style: solid;
+                        border-left-width: 1pt;
+                        border-left-color: #ed0972;
+                        border-bottom-style: solid;
+                        border-bottom-width: 1pt;
+                        border-bottom-color: #ed0972;
+                    "
+                    bgcolor="#EFECEA"
+                >
+                    <p
+                        style="
+                            padding-top: 12pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <br />
+                    </p>
+                    <p
+                        class="s22"
+                        style="
+                            padding-left: 5pt;
+                            padding-right: 5pt;
+                            text-indent: 0pt;
+                            text-align: right;
+                        "
+                    >
+                        ءارجإل هتانايب مادختساو ةيحضلا ةيصخش لاحتناب نولاتحملا
+                        موقي ،ةيصخشلا تانايبلا ةقرس دعب
+                        <span class="s23">.</span>ةينوناق ريغ لامعأ وأ ،ةيلام
+                        تالماعم
+                    </p>
+                </td>
+                <td
+                    style="
+                        width: 110pt;
+                        border-top-style: solid;
+                        border-top-width: 1pt;
+                        border-top-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 1pt;
+                        border-bottom-color: #ffffff;
+                    "
+                    bgcolor="#ED0972"
+                >
+                    <p
+                        style="
+                            padding-top: 10pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <br />
+                    </p>
+                    <p
+                        class="s24"
+                        style="
+                            padding-right: 33pt;
+                            text-indent: 0pt;
+                            text-align: right;
+                        "
+                    >
+                        ةيوهلا ةقرس
+                    </p>
+                    <p
+                        class="s24"
+                        style="
+                            padding-top: 4pt;
+                            padding-left: 21pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        )Identity Theft(
+                    </p>
+                </td>
+            </tr>
+            <tr style="height: 74pt">
+                <td
+                    style="
+                        width: 360pt;
+                        border-top-style: solid;
+                        border-top-width: 1pt;
+                        border-top-color: #ed0972;
+                        border-left-style: solid;
+                        border-left-width: 1pt;
+                        border-left-color: #ed0972;
+                        border-bottom-style: solid;
+                        border-bottom-width: 1pt;
+                        border-bottom-color: #ed0972;
+                    "
+                >
+                    <p
+                        style="
+                            padding-top: 10pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <br />
+                    </p>
+                    <p
+                        class="s22"
+                        style="
+                            padding-right: 5pt;
+                            text-indent: 0pt;
+                            text-align: right;
+                        "
+                    >
+                        لصاوتلا لئاسو يف ةئيسملا تاكراشملا وأ ةيروفلا لئاسرلا وأ
+                        ينورتكلإلا ديربلا ربع تاديدهتلا لمشت
+                        <span class="s23">.</span>رتيوتو كوبسيف لثم يعامتجالا
+                    </p>
+                </td>
+                <td
+                    style="
+                        width: 110pt;
+                        border-top-style: solid;
+                        border-top-width: 1pt;
+                        border-top-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 1pt;
+                        border-bottom-color: #ffffff;
+                    "
+                    bgcolor="#ED0972"
+                >
+                    <p
+                        style="
+                            padding-top: 7pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <br />
+                    </p>
+                    <p
+                        class="s24"
+                        style="
+                            padding-right: 11pt;
+                            text-indent: 0pt;
+                            text-align: right;
+                        "
+                    >
+                        تنرتنإلا ربع تاقياضملا
+                    </p>
+                    <p
+                        class="s24"
+                        style="
+                            padding-top: 4pt;
+                            padding-right: 8pt;
+                            text-indent: 0pt;
+                            text-align: right;
+                        "
+                    >
+                        )Online Harassment(
+                    </p>
+                </td>
+            </tr>
+            <tr style="height: 99pt">
+                <td
+                    style="
+                        width: 360pt;
+                        border-top-style: solid;
+                        border-top-width: 1pt;
+                        border-top-color: #ed0972;
+                        border-left-style: solid;
+                        border-left-width: 1pt;
+                        border-left-color: #ed0972;
+                        border-bottom-style: solid;
+                        border-bottom-width: 1pt;
+                        border-bottom-color: #ed0972;
+                    "
+                    bgcolor="#EFECEA"
+                >
+                    <p
+                        style="
+                            padding-top: 8pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <br />
+                    </p>
+                    <p
+                        class="s22"
+                        style="
+                            padding-left: 5pt;
+                            padding-right: 5pt;
+                            text-indent: 0pt;
+                            text-align: right;
+                        "
+                    >
+                        اهنكمي ةراض جماربب مهاياحضبً ةصاخلا بساحلا ةزهجأ
+                        نوينورتكلإلا نوللستملا بيصي ام ةداع
+                        <b>حيتافملا لجسم </b>جمانرب موقي اًلثمف ،تنرتنإلا ربع
+                        مهتاطاشن ةبقارمل بساحلا زاهج طاشن ليجست ىلع بعصي ثيحب
+                        ةيرس ةقيرطب ةطوغضملا حيتافملا ةحول رارزأ ليجستو عبتتب
+                        )keylogger( <span class="s23">.</span>ةصاخلا هتانايب
+                        عمجو هتبقارم متت هنأ ةفرعم صخشلا
+                    </p>
+                </td>
+                <td
+                    style="
+                        width: 110pt;
+                        border-top-style: solid;
+                        border-top-width: 1pt;
+                        border-top-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 1pt;
+                        border-bottom-color: #ffffff;
+                    "
+                    bgcolor="#ED0972"
+                >
+                    <p style="text-indent: 0pt; text-align: left"><br /></p>
+                    <p
+                        class="s24"
+                        style="
+                            padding-right: 23pt;
+                            text-indent: 0pt;
+                            text-align: right;
+                        "
+                    >
+                        ينورتكلإلا للستلا
+                    </p>
+                    <p
+                        class="s24"
+                        style="
+                            padding-top: 4pt;
+                            padding-right: 21pt;
+                            text-indent: 0pt;
+                            text-align: right;
+                        "
+                    >
+                        )Cyberstalking(
+                    </p>
+                </td>
+            </tr>
+            <tr style="height: 85pt">
+                <td
+                    style="
+                        width: 360pt;
+                        border-top-style: solid;
+                        border-top-width: 1pt;
+                        border-top-color: #ed0972;
+                        border-left-style: solid;
+                        border-left-width: 1pt;
+                        border-left-color: #ed0972;
+                        border-bottom-style: solid;
+                        border-bottom-width: 1pt;
+                        border-bottom-color: #ed0972;
+                    "
+                >
+                    <p
+                        style="
+                            padding-top: 8pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <br />
+                    </p>
+                    <p
+                        class="s22"
+                        style="
+                            padding-right: 5pt;
+                            text-indent: 0pt;
+                            text-align: right;
+                        "
+                    >
+                        دقو ،رخآ صخشل ةيصخشلا ةايحلا ىلع لفطتلا ام صخش ةلواحم
+                        دنع ةيصوصخلا كاهتنا ثدحي ةبقارم وأ ينورتكلإلا ديربلا
+                        لئاسر ةءارق وأ هب صاخلا يصخشلا بساحلا زاهج قارتخا كلذ
+                        نمضتي <span class="s23">.</span>تنرتنإلا ربع هب ةصاخلا
+                        ةيصخشلا ةطشنألا
+                    </p>
+                </td>
+                <td
+                    style="
+                        width: 110pt;
+                        border-top-style: solid;
+                        border-top-width: 1pt;
+                        border-top-color: #ffffff;
+                    "
+                    bgcolor="#ED0972"
+                >
+                    <p
+                        style="
+                            padding-top: 13pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <br />
+                    </p>
+                    <p
+                        class="s24"
+                        style="
+                            padding-right: 21pt;
+                            text-indent: 0pt;
+                            text-align: right;
+                        "
+                    >
+                        ةيصوصخلا كاهتنا
+                    </p>
+                    <p
+                        class="s24"
+                        style="
+                            padding-top: 4pt;
+                            padding-left: 10pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        )Invasion of privacy(
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <p style="padding-top: 13pt; text-indent: 0pt; text-align: left">
+            <br />
+        </p>
+        <p
+            class="s14"
+            style="padding-left: 502pt; text-indent: 0pt; text-align: right"
+        >
+            ينمألا قارتخالا
+        </p>
+        <p
+            style="
+                padding-top: 2pt;
+                padding-left: 71pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            ،ماظنلا نم ةيمحم قطانم ىلإ لوصولل ةيامحلا ريبادتل هب حرصم ريغ فرط
+            زواجت دنع )Security Breach( <b>ينمألا قارتخالا </b>ثدحي ةيركفلا
+            ةيكلملاو تاكرشلا تاباسح لثم اهيلإ لوصولاو ةميق تامولعم ىلع نيللستملا
+            ةرطيس ىلإ ينمألا قارتخالا يدؤي نأ نكميو
+            <span class="s16">.</span>نامتئالا تاقاطب تامولعمو ةيصخشلا ماقرألاو
+            نيوانعلاو ءامسألا لمشت دق يتلا ءالمعلل ةيصخشلا تامولعملاو
+        </p>
+        <p
+            style="
+                padding-top: 4pt;
+                padding-left: 71pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            ،امهنيب يرهوج فالتخا دوجو مغر ،ينمألا قارتخالا حلطصم عم بوانتلاب
+            تانايبلا قارتخا حلطصم مادختسا متي ،نايحألا ضعب يف لكشبو ةفلتخم عضاوم
+            يف ثدحت دق تانايبلا تاقارتخا نأ امك ،ينمألا قارتخالا ثًودحل ةجيتنك
+            تانايبلا قارتخا ثدحي ثيح <span class="s16">.</span>تنرتنإلا ربع
+            ىرخألا ةمظنألا نم ديدعلا قارتخا ىلإ اًلثم رورملا تاملك ةقرس يدؤت دق
+            ثيح ،قحالتم
+        </p>
+        <p
+            style="
+                padding-top: 4pt;
+                padding-left: 71pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            نم ةعومجم ركذت بعصلا نم هنأ مغرو ،تنرتنإلا ربع ةددعتم تاباسح ىلع
+            رورملا ةملك سفن مادختسا ىلإ ةداع نومدختسملا ليمي يتلا ةمظنألا دحأل
+            قارتخا ثودح لاح يف تانايبلا ةيامحل ةفلتخم رورم تاملك مادختسا ادًج
+            مهملا نم هنإ الإ ،ةفلتخملا رورملا تاملك
+            <span class="s16">.</span>تنرتنإلا ربع اهمدختست
+        </p>
+        <p style="padding-top: 1pt; text-indent: 0pt; text-align: left">
+            <br />
+        </p>
+        <p
+            class="s15"
+            style="padding-left: 400pt; text-indent: 0pt; text-align: right"
+        >
+            ةريبكلا تاسسؤملا يف تاقارتخالا ىلع ةلثمأ
+        </p>
+        <p
+            class="s17"
+            style="
+                padding-top: 3pt;
+                padding-left: 137pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            )Facebook( كوبسيف
+        </p>
+        <p
+            style="
+                padding-top: 4pt;
+                padding-left: 72pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            ضعب مايق ببسب ،تنرتنإلا ربع ةرشتنم تناك كوبسيف يمدختسم تالجس نييالم
+            نأ تامولعملا نمأ اوثحاب فشك ،2019 ماع يف نامألا ريبادت عضو نود اهب
+            ةصاخ مداوخ ىلع تانايبلا كلت نيزختب هيمدختسم تانايب ىلإ لوصولاب
+            كوبسيف اهل حمسي يتلا تاقيبطتلا ءامسأو لعفلا دودر ،تاباجعإلا
+            ،تاقيلعتلا ،كوبسيف ىلع نيمدختسملا تافرعم اهيف امب تالجسلا نييالم ىلع
+            روثعلا متو ،ةبولطملا ةيباحسلا مداوخلا ىلع هفاشتكا مت يذلا افيتكيلوك
+            اروتلوك يكيسكملا يمقرلا رشانلا ةطساوب اهليمحت مت تانايب ةدعاق يف
+            تاباسحلا فارطألا جماربل حامسلا لبق رذحلاو ةطيحلا ريبادت ذاختا ىلإ
+            وعدي اذهو ،)Amazon Web Service - AWS( <b>بيو نوزامأ تامدخل </b
+            ><span class="s16">.</span>انتامولعم ىلإ لوصولاب يعامتجالا لصاوتلا
+            تاصنم ىلع انفداصت يتلا ةيجراخلا
+        </p>
+        <p
+            class="s17"
+            style="
+                padding-top: 4pt;
+                padding-left: 137pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            )Marriott International( ةيلودلا تويرام
+        </p>
+        <p
+            style="
+                padding-top: 4pt;
+                padding-left: 72pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            تاقاطب ماقرأ نأ ةكرشلا دقتعتو ،ةيلودلا تويرام ةكرشل ليمع نويلم 500
+            براقي ام تانايب تنرتنإلا صوصل قرس ،2018 ربمفون يف نم نومجاهملا نكمت
+            اذإ اميف دكؤملا نم نكي مل هنأ مغر ،اضًيأ تقرسُ دق ليمع نويلم 100 نم
+            رثكأل ةيحالصلا ءاهتنا خــــيراوتو نامتئالا
+            <span class="s16">.</span>نامتئالا تاقاطب ماقرأ ريفشت كف
+        </p>
+        <p
+            class="s17"
+            style="
+                padding-top: 5pt;
+                padding-left: 137pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            )Google+( +لجوج
+        </p>
+        <p
+            style="
+                padding-top: 4pt;
+                padding-left: 71pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            دعب قارتخالا نع تنلعأ لجوج ةكرش نكلو ،+لجوج يمدختسم نم فلأ 500 لاط
+            يئدبم قارتخا نع غالبإلا مت ،2018 ربوتكأ يف نويلم 52<span class="s16"
+                >.</span
+            >5 ـل ةيصخشلا تامولعملا فشك هلالخ مت تانايبلل رخأ قارتخا نع ةكرشلا
+            تفشك ،ربمسيد يف <span class="s16">.</span>هفاشتكا نم رهشأ ةدع
+            ،ينورتكلإلا ديربلا نيوانع ،ءامسألا لثم تانايب قارتخالا اذه نمضت
+            <span class="s16">.</span>+لجوج ريغ تاقيبطتل مايأ ةتس ةدمل +لجوج ىلع
+            باسح <span class="s16">.</span>+لجوج ةطساوب اهعمج مت يتلا ىرخألا
+            ةيصخشلا تامولعملا عونو داليملا خــــيراوت
+        </p>
+        <p
+            class="s17"
+            style="
+                padding-left: 137pt;
+                text-indent: 0pt;
+                line-height: 9pt;
+                text-align: right;
+            "
+        >
+            ً
+        </p>
+        <p
+            class="s17"
+            style="
+                padding-left: 502pt;
+                text-indent: 0pt;
+                line-height: 12pt;
+                text-align: right;
+            "
+        >
+            )اقباس رتيوت( X
+        </p>
+        <p
+            style="
+                padding-top: 3pt;
+                padding-left: 71pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            اهنأب ةكرشلا تفرتعا <span class="s16">.</span>ثلاث فرط تاقيبطتل
+            ةيصخشلا مهتانايب ءاطعإب دصق ريغ نع رتيوت يمدختسم نم تائم ماق ،2019
+            ماع يف ضعب تامولعم ضرعي نأ نكمملا نم ناكو بساحلا ةزهجأ ةنصارق لبقِ
+            نم اهقيبطت يف هجاردإ مت امبر ثيبخ زمرل احًالصإ تردصأ تاعومجم نأ
+            اوفشتكا ،ةثلاث ةهجل نيعبات نمأ يثحاب لبقِ نم ةلكشملاب رتيوت ةكرش
+            مالعإ مت <span class="s16">.</span>رطخلل ملاعلا ءاحنأ عيمج يف
+            نيمدختسملا <span class="s16">.</span>ةساسحلا نيمدختسملا تانايب ىلإ
+            لوصولاب تحمس دق )Mobiburn( <b>نريب يبومو </b>)One Audience(
+            <b>سنيدوأ ناو </b>جمارب ريوطت <span class="s16">.</span>ةثيدحلا
+            تاديرغتلاو ينورتكلإلا ديربلا نيوانع ،نيمدختسملا ءامسأ ةفوشكملا
+            تامولعملا تلمش
+        </p>
+        <p
+            class="s17"
+            style="
+                padding-top: 5pt;
+                padding-left: 137pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            )Adobe( يبودأ
+        </p>
+        <p style="text-indent: 0pt; line-height: 13pt; text-align: right">
+            نع فشك دق
+        </p>
+        <p style="text-indent: 0pt; text-align: left" />
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p
+            style="
+                padding-top: 4pt;
+                padding-left: 71pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            تانايب ىلإ ةفاضإلاب ،ةرفشملا ءالمعلا نامتئا تاقاطب تالجس نم نييالم 3
+            براقي ام اوقرس نيللستملا نأب ةيادبلا يف ةكرشلا تنلعأ قارتخالا اذه نأ
+            فاشتكا مت ثحبلا نم عيباسأ دعب نكلو ،نيمدختسملا تاباسح نم ددحم ريغ
+            ددعل لوخدلا ليجست
+        </p>
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p
+            class="s16"
+            style="
+                padding-left: 137pt;
+                text-indent: 0pt;
+                line-height: 15pt;
+                text-align: right;
+            "
+        >
+            .<span class="p"
+                >مهب ةصاخلا نامتئالا تاقاطبو مصخلا تاقاطب تامولعمورورملا تاملكو
+                مهتافرِّعمُ اهيف امب ءالمعلا تانايب نم ريثكلا</span
+            >
+        </p>
+        <p style="padding-top: 13pt; text-indent: 0pt; text-align: left">
+            <br />
+        </p>
+        <p
+            class="s14"
+            style="padding-left: 490pt; text-indent: 0pt; text-align: right"
+        >
+            ةينورتكلإلا تامجهلا
+        </p>
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p
+            class="s18"
+            style="
+                padding-top: 9pt;
+                padding-left: 9pt;
+                text-indent: -6pt;
+                text-align: right;
+            "
+        >
+            ريبك قرف كانه نكلو ،يلدابت لكشب ةينورتكلإلا تامجهلاو ينمألا قارتخالا
+            مادختسا متي ام ابًلاغ ماظن ىلإ لوصولل ةينورتكلإلا تاراهملا مادختسا
+            ىلإ ينمألا قارتخالا ريشي <span class="s19">.</span>نيحلطصملا نيب
+        </p>
+        <p
+            class="s19"
+            style="text-indent: 0pt; line-height: 14pt; text-align: right"
+        >
+            .<span class="s18"
+                >ررض ثادحإ ةين ىلإ ةينورتكلإلا تامجهلا ريشت امنيب ،نذإ نود
+                ةكبشلا وأ بساحلا زاهج</span
+            >
+        </p>
+        <p style="text-indent: 0pt; text-align: left" />
+        <p
+            style="
+                padding-top: 3pt;
+                padding-left: 72pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            لوصولا لالخ نم اهفالتإ وأ ،اهليطعت وأ ،اهفشكوأ ،تامولعملا ةقرسل
+            تالواحم يه )Electronic Attacks( <b>ةينورتكلإلا تامجهلا </b>دصقب
+            بساحلا زاهج ةكبش وأ ةبسوحلا ماظن ىلإ هب حرصملا ريغ لوصولل ةلواحم
+            اضًيأ يهو <span class="s16">.</span>بساحلا زاهج ىلإ هب حرصملا ريغ
+            ىلع ةميخو بقاوع اهل نوكي نأ نكميو ،ررض ثادحإ ةينبو ةينوناق ريغ
+            ةقيرطب ةينورتكلإلا تامجهلا ذيفنت متي ام ةداع
+            <span class="s16">.</span>ررض ثادحإ
+            <span class="s16">.</span>نيمجاهملا
+        </p>
+        <p style="text-indent: 0pt; text-align: left"><br /></p>
+        <p style="padding-top: 13pt; text-indent: 0pt; text-align: left">
+            <br />
+        </p>
+        <p
+            class="s17"
+            style="padding-left: 362pt; text-indent: 0pt; text-align: right"
+        >
+            عزوملا تامدخلا بجحو تامدخلا بجح تامجه
+        </p>
+        <p
+            style="
+                padding-top: 4pt;
+                text-indent: 0pt;
+                line-height: 14pt;
+                text-align: right;
+            "
+        >
+            )Distributed Denial of service - DDoS(
+            <b>عزوملا تامدخلا بجحو </b>)Denial of Service DOS - DoS(
+            <b>تامدخلا بجح تامجه </b>نإ
+        </p>
+        <p
+            class="s16"
+            style="
+                padding-left: 72pt;
+                text-indent: 0pt;
+                line-height: 15pt;
+                text-align: right;
+            "
+        >
+            .<span class="p"
+                >مداخ وأ ينورتكلإ عقوم لثم ،نيعم ةكبش دروم رفوت ليطعت ىلإ فدهت
+                يتلا ةينورتكلإلا تامجهلا نم ناعئاش ناعون امه</span
+            >
+        </p>
+        <p
+            class="s17"
+            style="
+                padding-top: 12pt;
+                padding-left: 490pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            تامدخلا بجح موجه
+        </p>
+        <p
+            style="
+                padding-top: 4pt;
+                padding-left: 72pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            فدهتسم مداخ وأ عقوم قارغإب ةكبش وأ دحاو بساح زاهج موقي ثيح
+            ةيناربيسلا تامجهلا عاونأ نم عون وه تامدخلا بجح موجه
+            <span class="s16">.</span>نيمدختسملل حاتم ريغ هلعجو هكابرإ ىلإ يدؤي
+            امم ،رورملا ةكرحب
+        </p>
+        <p
+            class="s15"
+            style="
+                padding-top: 14pt;
+                padding-left: 440pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            عزوملا تامدخلا بجح موجه
+        </p>
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p
+            style="
+                padding-top: 5pt;
+                padding-left: 72pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            وأ بساحلا ةزهجأ نم ديدعلا مادختسا متي ثيح تامدخلا بجح موجه نم امًدقت
+            رثكأ رادصإ وه عزوملا تامدخلا بجح موجه ةكرحل ةددعتملا رداصملا لعجت
+            <span class="s16">.</span>ةبوعص رثكأ هدض عافدلا لعجي امم ،رورملا
+            ةكرحب فدهتسم مداخ وأ ينورتكلإ عقوم قارغإل تاكبشلا
+            <span class="s16">.</span>ةددعتم عقاوم نم مداق هنأ ودبي هنأل ؛موجهلا
+            عنم بعصلا نم رورملا
+        </p>
+        <p style="padding-top: 15pt; text-indent: 0pt; text-align: left">
+            <br />
+        </p>
+        <p
+            class="s17"
+            style="padding-left: 137pt; text-indent: 0pt; text-align: right"
+        >
+            )Man-in-the-middle MitM( طيسولا موجه
+        </p>
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p
+            class="s19"
+            style="padding-top: 6pt; text-indent: 0pt; text-align: right"
+        >
+            :<span class="s18">ينورتكلإلا طيسولا موجه ىلع ةلثمأ</span>
+        </p>
+        <p style="text-indent: 0pt; text-align: left" />
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <h1 style="text-indent: 0pt; line-height: 54pt; text-align: left">Χ</h1>
+        <p style="text-indent: 0pt; text-align: left" />
+        <p style="text-indent: 0pt; line-height: 12pt; text-align: right">
+            مدختسمُلا
+        </p>
+        <p style="text-indent: 0pt; text-align: left" />
+        <p style="text-indent: 0pt; line-height: 12pt; text-align: right">
+            قيبطتلا
+        </p>
+        <p style="text-indent: 0pt; text-align: left" />
+        <p style="text-indent: 0pt; line-height: 12pt; text-align: right">
+            طيسولا موجه
+        </p>
+        <p style="text-indent: 0pt; text-align: left" />
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p
+            style="
+                padding-top: 4pt;
+                padding-left: 72pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            ارًهاظتم هفصتنم يف سلجيو ،قيبطتلاو مدختسملا لاصتا نيب مجاهملا هيف
+            لفطتي ةينورتكلإلا تامجهلا نم عون وه طيسولا موجه تامولعم ةقرسل طيسولا
+            موجه مادختسا نكمي <span class="s16">.</span>لاصتالا قفدت يف ةديدج
+            لئاسر لاخدإ وأ ليدعت وأ ةءارق هنكميو ،رخآلا فرطلا هنأب
+            <span class="s16">.</span>ةقداصملاو ريفشتلا بيلاسأ مادختساب تامجهلا
+            هذه نم فيفختلا نكمي <span class="s16">.</span>ىرخأ ةراض ةطشنأ ذيفنت
+            وأ ةراض جمارب رشن وأ ةساسح
+        </p>
+        <p style="text-indent: 0pt; text-align: left"><br /></p>
+        <table
+            style="border-collapse: collapse; margin-left: 72.2736pt"
+            cellspacing="0"
+        >
+            <tr style="height: 76pt">
+                <td
+                    style="
+                        width: 339pt;
+                        border-top-style: solid;
+                        border-top-width: 1pt;
+                        border-top-color: #ed0972;
+                        border-left-style: solid;
+                        border-left-width: 1pt;
+                        border-left-color: #ed0972;
+                        border-bottom-style: solid;
+                        border-bottom-width: 1pt;
+                        border-bottom-color: #ed0972;
+                    "
+                    bgcolor="#FFFFFF"
+                >
+                    <p
+                        style="
+                            padding-top: 4pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <br />
+                    </p>
+                    <p
+                        class="s22"
+                        style="
+                            padding-right: 5pt;
+                            text-indent: 0pt;
+                            text-align: right;
+                        "
+                    >
+                        امم ،ةيعرش لوصو ةطقن اهنأ ىلع رهظت ةعداخ ياف ياو لوصو
+                        ةطقن دادعإ مجاهملل نكمي نينئمطملا اياحضلا لبق نم ةلسرملا
+                        ةرفشملا ريغ ةكبشلا رورم ةكرح ةءارقو ضارتعاب هل حمسي
+                        <span class="s23">.</span>ةعداخلا لوصولا ةطقنب نولصتي
+                        نيذلا
+                    </p>
+                </td>
+                <td
+                    style="
+                        width: 131pt;
+                        border-top-style: solid;
+                        border-top-width: 1pt;
+                        border-top-color: #ed0972;
+                        border-bottom-style: solid;
+                        border-bottom-width: 1pt;
+                        border-bottom-color: #ffffff;
+                    "
+                    bgcolor="#ED0972"
+                >
+                    <p
+                        style="
+                            padding-top: 11pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <br />
+                    </p>
+                    <p
+                        class="s24"
+                        style="
+                            padding-right: 23pt;
+                            text-indent: 0pt;
+                            text-align: right;
+                        "
+                    >
+                        ياف ياولا ىلع تصنتلا
+                    </p>
+                    <p
+                        class="s24"
+                        style="
+                            padding-left: 18pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        )WiFi eavesdropping(
+                    </p>
+                </td>
+            </tr>
+            <tr style="height: 61pt">
+                <td
+                    style="
+                        width: 339pt;
+                        border-top-style: solid;
+                        border-top-width: 1pt;
+                        border-top-color: #ed0972;
+                        border-left-style: solid;
+                        border-left-width: 1pt;
+                        border-left-color: #ed0972;
+                        border-bottom-style: solid;
+                        border-bottom-width: 1pt;
+                        border-bottom-color: #ed0972;
+                    "
+                    bgcolor="#EFECEA"
+                >
+                    <p
+                        style="
+                            padding-top: 4pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <br />
+                    </p>
+                    <p
+                        class="s22"
+                        style="
+                            padding-left: 5pt;
+                            padding-right: 5pt;
+                            text-indent: 0pt;
+                            line-height: 67%;
+                            text-align: right;
+                        "
+                    >
+                        هيجوت ديعيو ،اهريغيو DNS قاطنلا مسا ماظن تامالعتسا
+                        <span class="s26">ً </span>مجاهملا ضرتعي ،موجهلا اذه يف
+                        <span class="s23">.</span>دوصقملا ينورتكلإلا عقوملا نم
+                        اًلدب راض ينورتكلإ عقوم ىلإ اياحضلا
+                    </p>
+                </td>
+                <td
+                    style="
+                        width: 131pt;
+                        border-top-style: solid;
+                        border-top-width: 1pt;
+                        border-top-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 1pt;
+                        border-bottom-color: #ffffff;
+                    "
+                    bgcolor="#ED0972"
+                >
+                    <p
+                        style="
+                            padding-top: 3pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <br />
+                    </p>
+                    <p
+                        class="s24"
+                        style="
+                            padding-right: 24pt;
+                            text-indent: 0pt;
+                            text-align: right;
+                        "
+                    >
+                        تاقاطنلا ءامسأ لاحتنا
+                    </p>
+                    <p
+                        class="s24"
+                        style="
+                            padding-left: 32pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        )DNS spoofing(
+                    </p>
+                </td>
+            </tr>
+            <tr style="height: 71pt">
+                <td
+                    style="
+                        width: 339pt;
+                        border-top-style: solid;
+                        border-top-width: 1pt;
+                        border-top-color: #ed0972;
+                        border-left-style: solid;
+                        border-left-width: 1pt;
+                        border-left-color: #ed0972;
+                        border-bottom-style: solid;
+                        border-bottom-width: 1pt;
+                        border-bottom-color: #ed0972;
+                    "
+                >
+                    <p
+                        style="
+                            padding-top: 8pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <br />
+                    </p>
+                    <p
+                        class="s22"
+                        style="
+                            padding-right: 5pt;
+                            text-indent: 0pt;
+                            text-align: right;
+                        "
+                    >
+                        ةفاضإ وأ ىوتحملا رييغتو ينورتكلإلا ديربلا لئاسر مجاهملا
+                        ضرتعي موجهلا نم عونلا اذه يف
+                        <span class="s23">.</span>ةراض جمارب رشنل وأ ةساسح
+                        تامولعم ةقرسل ةراض طباور وأ تاقفرم
+                    </p>
+                </td>
+                <td
+                    style="
+                        width: 131pt;
+                        border-top-style: solid;
+                        border-top-width: 1pt;
+                        border-top-color: #ffffff;
+                    "
+                    bgcolor="#ED0972"
+                >
+                    <p
+                        class="s24"
+                        style="
+                            padding-top: 12pt;
+                            padding-left: 23pt;
+                            padding-right: 46pt;
+                            text-indent: -23pt;
+                            text-align: right;
+                        "
+                    >
+                        ديربلل يلايتحالا ديصتلا ينورتكلإلا
+                    </p>
+                    <p
+                        class="s24"
+                        style="
+                            padding-top: 4pt;
+                            padding-left: 29pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        )Email phishing(
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <p style="padding-top: 13pt; text-indent: 0pt; text-align: left">
+            <br />
+        </p>
+        <p
+            class="s14"
+            style="padding-left: 440pt; text-indent: 0pt; text-align: right"
+        >
+            ةينورتكلإلا مئارجلا نم ةياقولا
+        </p>
+        <p
+            class="s16"
+            style="
+                padding-top: 2pt;
+                padding-left: 66pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            .<span class="p"
+                >لاملا ىلع ءاليتسالا مهنكمي اهلالخ نم يتلاو ةيصخشلا تامولعملا
+                ةقرسل سيئر لكشب ةيوهلا صوصلو نوللستملاو نولاتحملا فدهي </span
+            >.<span class="p"
+                >ةينورتكلإلا تامجهلا هذه نم انسفنأ ةيامحل اهذاختا انيلع نيعتي
+                تاوطخ كانه ،رمألا اذه لثم بنجتلو</span
+            >
+        </p>
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p
+            style="
+                padding-top: 3pt;
+                padding-left: 66pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            مسالا ىلع ةيصخشلا تامولعملا رصتقت ال
+            <span class="s16">.</span>ةيصخشلا لاحتنا وأ ةيوهلا ةقرس رطخ نم
+            ليلقتلا يف ةيصخشلا كتامولعم ةيامح دعاست يتلاو ،ىرخألا تاباسحلاو
+            ةيفرصملا تاباسحلاو نامتئالا تاقاطب ماقرأ نمضتت دق لب ،داليملا
+            خــــيرات وأ فتاهلا مقرو ناونعلاو لماكلا
+            <span class="s16">.</span>اهريغو ،ةيصخشلا لاحتنا وأ ةقرسلل اهمادختسا
+            نكمي
+        </p>
+        <p style="padding-top: 14pt; text-indent: 0pt; text-align: left">
+            <br />
+        </p>
+        <p
+            class="s16"
+            style="padding-left: 279pt; text-indent: 0pt; text-align: right"
+        >
+            :<span class="p"
+                >ةينورتكلإلا مئارجلا نم ةياقولل اهذاختاب حصني يتلا ريبادتلا ضعب
+                يتأي اميفو</span
+            >
+        </p>
+        <p style="padding-top: 2pt; text-indent: 0pt; text-align: left">
+            <br />
+        </p>
+        <p
+            class="s15"
+            style="padding-left: 490pt; text-indent: 0pt; text-align: right"
+        >
+            جماربلل يرودلا ثيدحتلا
+        </p>
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p
+            style="
+                padding-top: 4pt;
+                padding-left: 230pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            تايجمرب رطخ نم ليلقتلل يناربيسلا نمألا لولح رثكأ دحأ تايجمربلا ثيدحت
+            دُّعيُ اذه لمشي نأ بجي ،مدختسملا زازتبا ىلع دمتعت يتلا كلت ةصاخًو
+            ةصاخلا قارتخالا ةجرحلا ةينمألا تارغثلا ةلازإل كلذو ،تاقيبطتلاو
+            ليغشتلا ماظن نم اًلكرمتسملا ثيدحتلا <span class="s16">.</span>ةيكذلا
+            فتاوهلاو ةلومحملاو ةتباثلا ةزهجألا ىلإ لوصولل نوللستملا اهمدختسي دق
+            يتلا
+        </p>
+        <p style="text-indent: 0pt; text-align: left"><br /></p>
+        <p
+            class="s17"
+            style="padding-left: 137pt; text-indent: 0pt; text-align: right"
+        >
+            )Firewall( ةيامحلا رادجو )Antivirus( تاسوريفلا ةحفاكم جمارب مادختسا
+        </p>
+        <p
+            style="
+                padding-top: 4pt;
+                padding-left: 72pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            تايجمربلا عنمي هنأل ارًظن ؛تامجهلا ةبراحم يف احًاجن رثكألا لحلا
+            تاسوريفلا ةحفاكم جمانرب دُّعيُ مادختسا دُّعيُو ،رطخلل كتانايب ضيرعتو
+            كزاهج ىلإ لوخدلا نم ىرخألا ةثيبخلا تاسوريفلاو ةراضلا نيللستملا بجح
+            ىلع دعاسي وهف ،تامجهلا نم كتانايب ىلع ظافحلا يف امًهم بسانم ةيامح
+            جمانرب ىلإ اهرورمب حومسملا تانايبلا نينقتو ديدحتو تنرتنإلا ربع
+            ىرخألا ةراضلا تاطاشنلاو تاسوريفلاو <span class="s16">.</span>كزاهج
+        </p>
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p
+            style="
+                padding-top: 4pt;
+                padding-left: 66pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            اذإ ام ديدحتو تانايبلا مزح ليلحت لالخ نم ةرداصلاو ةدراولا تانايبلا
+            رورم ةكرح يف ةيامحلا رادج مكحتي بساحلا ةزهجأ ىلع اهتيبثت متي جمارب
+            ةروص ىلع ةيامحلا ردج يتأت دقو <span class="s16">.</span>ال مأ
+            اهرورمب حامسلا يغبني ناك تامجهلا نم اهتيامحل ةكبشلا لكيه نمض مدختست
+            ةلصفنم ةيجراخ ةزهجأ لكش ىلع وأ ،يدرف لكشب ،بثك نع تانايبلا صحفت نأ
+            ةيدرفلا بساحلا ةزهجأ ىلع ةتبثملا ةيامحلا رادج جماربل نكمي
+            <span class="s16">.</span>ةيجراخلا ةينمألا تاطايتحالا تاذ تاكبشلا
+            مدختست <span class="s16">.</span>تنرتنإلا ىلإ تانايبلا لاسرإ نم
+            ةددحم جمارب عنمت نأ نكميو <span class="s16">.</span>ةلماك نامأ ةكبش
+            نيمأتل ةيامحلا ناردج نم نيعونلا الك ةيلاعلا
+        </p>
+        <p style="text-indent: 0pt; text-align: left"><br /></p>
+        <p
+            class="s17"
+            style="padding-left: 490pt; text-indent: 0pt; text-align: right"
+        >
+            رذحلا يمقرلا لصاوتلا
+        </p>
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p
+            style="
+                padding-top: 4pt;
+                padding-left: 214pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            تاصنم وأ ينورتكلإلًا ديربلا ربع ءاوس يمقرلا لصاوتلا لاكشأ ةفاك ىلإ
+            هابتنالا يغبني لئاسرلا حتف بنجت اًلثمف
+            <span class="s16">.</span>ةيصنلا لئاسرلاو ةيفتاهلا تاملاكملا ىتحو
+            ةيعامتجالا لصاوتلا طغضلا لبق ةقدب ةيبعشتلا طباورلا نم دكأتلاو
+            ،ةلوهجم تاهج نم ةلسرملا ةينورتكلإلا
+            <span class="s16">.</span>تاصنملا هذه ربع ةيصخش تامولعم يأ ةكراشم نم
+            رذحلا يخوتو ،اهيلع
+        </p>
+        <p style="text-indent: 0pt; text-align: left"><br /></p>
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p
+            class="s17"
+            style="
+                padding-top: 2pt;
+                padding-left: 137pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            ددعتملا وأ يئانثلا ققحتلا
+        </p>
+        <p
+            class="s17"
+            style="
+                padding-top: 3pt;
+                padding-left: 137pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            )Multi-factor Authentication(
+        </p>
+        <p
+            style="
+                padding-top: 4pt;
+                padding-left: 156pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            ددعتملا وأ يئانثلا ققحتلا ةيلمع مدقت بلطتت ثيح ،ةيفاضإ نامأ تارايخ
+            مسا لاخدإ ةيديلقتلا ةقداصملا ةيلمع بلطتي امنيب ،طقف رورملا ةملكو
+            مدختسملا ةيفاضإ ةقيرط مادختسا يئانثلا ققحتلا رورم ةملك وأ يصخشلا
+            فيرعتلا زمرك امأ <span class="s16">.</span>عبصإلا ةمصب مادختسا ىتح
+            وأ ىرخأ بلطتيف لماوعلا ددعتم ققحتلا مادختسا ققحتلا ةلثمأ نمضتت
+            <span class="s16">.</span>نيتقيرط نم رثكأ هذه نم جــــيزم مادختسا
+            ددعتملا وأ يئانثلا ةجتانلا زومرلا <span class="s16">:</span>لثم
+            ةقداصملل رصانعلا تاقاطبلا ،ةيكذلا فتاوهلا تاقيبطت نع ،ىرخألا ةيداملا
+            ةزهجألا وأ USB ةزهجأ وأ ناونع ىلإ ةلسرملا زومرلا ،عباصألا تامصب
+            تاباجإو هجولا ىلع فرعتلا ،ينورتكلإ ديرب
+            <span class="s16">.</span>يصخشلا نامألا ةلئسأل
+        </p>
+        <p
+            class="s17"
+            style="
+                padding-top: 3pt;
+                padding-left: 92pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            تاودأو ةيوقلا رورملا تاملك مادختسا رورملا تاملك ةرادإ
+        </p>
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p
+            style="
+                padding-top: 4pt;
+                padding-left: 92pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            ارًمأ ةيوقلا رورملا تاملك مادختسا دُّعيُ ربع نمألا تارابتعال امًّهم
+            ايًرورض تاملك مادختسا ةسايسل اقًفوو ،تنرتنإلا ةملك نوكت نأ بجي
+            ،ةديدجلا رورملا ،ديقعتلا نم ةيفاك ةجرد ىلع ةيوقلا رورملا تقولا اذه
+            يفو <span class="s16">.</span>يرود لكشب ريغتتو ىلع نيمدختسملا تاباسح
+            ددعتت يذلا ةجاحلا ترهظ ،ةديدع تاقيبطتو تاصنم
+            <b>رورملا تاملك ةرادإ </b>تاودأ مادختسا ىلإ
+        </p>
+        <p
+            style="
+                padding-left: 137pt;
+                text-indent: 0pt;
+                line-height: 14pt;
+                text-align: right;
+            "
+        >
+            ظفتحت يتلاو )Password Managers(
+        </p>
+        <p style="padding-left: 92pt; text-indent: 0pt; text-align: right">
+            دعاوق يف ةرفشم ةروصب رورملا تاملكب دنع اهعاجرتسا متي ثيحب ،ةنمآ
+            تانايب <span class="s16">.</span>هتيوه نم ققحتلاو مدختسملا بلط
+        </p>
+        <p style="text-indent: 0pt; text-align: left"><br /></p>
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p
+            class="s17"
+            style="padding-left: 400pt; text-indent: 0pt; text-align: right"
+        >
+            )Backup( تانايبلل يرودلا يطايتحالا خسنلا
+        </p>
+        <p
+            style="
+                padding-top: 4pt;
+                padding-left: 230pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            نامأ ىلع ظافحلا لاجم يف ةمهم ةوطخ يرود لكشب تانايبلل يطايتحا خسن
+            ءارجإ دعي نيعون ىلع كتانايب نم خسن ثالثب ظافتحالا كيلع يساسأ لكشبف
+            ،يصخشلا تنرتنإلا ،)يجراخلاو يلحملا بلصلا صرقلا( ىلع نيتخسنك
+            ،تانايبلا نيزخت طئاسو نم نيفلتخم كفادهتسا ةلاح يف
+            <span class="s16">.</span>يباحسلا نيزختلا مادختساب وأ يجراخ عقوم ىلع
+            ىرخأ ةخسنو ةخسن رخآ ةداعتساب يه تانايبلا ةداعتسال ةديحولا ةقيرطلا
+            نوكت ةراضلا تايجمربلاب <span class="s16">.</span>ةراضلا تايجمربلاب
+            باصملا يلاحلا ماظنلا نع ليدبك ةيطايتحا
+        </p>
+        <p style="text-indent: 0pt; text-align: left"><br /></p>
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p
+            class="s17"
+            style="padding-left: 362pt; text-indent: 0pt; text-align: right"
+        >
+            ةماعلا )Wi-Fi( ياف ياو تاكبش مادختسا بنجت
+        </p>
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p
+            style="
+                padding-top: 4pt;
+                padding-left: 230pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            <b>ةصاخ ةيضارتفا ةكبش </b>مادختسا نود ةماعلا ياف ياو ةكبش مادختسا
+            بنجتب حصني لقن ةكرح ريفشت متي ،ةكبشلا هذه مادختسابف ،)Virtual
+            private network - VPN( ىلع كتانايب ىلإ لوصولا ةنصارقلا ىلع بعصي امم
+            VPN مداخو زاهجلا نيب تانايبلا لوصحلل كلذو VPN ةكبش دوجو مدع دنع
+            ةيولخلا ةكبشلا مادختساب ىصوي امك ،تنرتنإلا
+            <span class="s16">.</span>نامألا نم ىلعأ ىوتسم ىلع
+        </p>
+        <p
+            class="s27"
+            style="padding-left: 20pt; text-indent: 0pt; text-align: left"
+        >
+            <span /> <span />
+        </p>
+        <p style="text-indent: 0pt; text-align: left"><br /></p>
+        <p style="text-indent: 0pt; line-height: 1pt; text-align: left">
+            <span />
+        </p>
+        <p style="padding-top: 5pt; text-indent: 0pt; text-align: left">
+            <br />
+        </p>
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <h3 style="padding-left: 455pt; text-indent: 0pt; text-align: right">
+            اعًم قبطنل
+        </h3>
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p
+            class="s7"
+            style="text-indent: 0pt; line-height: 14pt; text-align: left"
+        >
+            21
+        </p>
+        <p style="text-indent: 0pt; text-align: left" />
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p
+            class="s28"
+            style="
+                padding-top: 19pt;
+                padding-left: 490pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            1 بيردت
+        </p>
+        <p style="padding-top: 2pt; text-indent: 0pt; text-align: left">
+            <br />
+        </p>
+        <table
+            style="border-collapse: collapse; margin-left: 95.8258pt"
+            cellspacing="0"
+        >
+            <tr style="height: 37pt">
+                <td
+                    style="
+                        width: 57pt;
+                        border-top-style: solid;
+                        border-top-width: 1pt;
+                        border-top-color: #ffffff;
+                        border-left-style: solid;
+                        border-left-width: 2pt;
+                        border-left-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 2pt;
+                        border-bottom-color: #ffffff;
+                        border-right-style: solid;
+                        border-right-width: 2pt;
+                        border-right-color: #ffffff;
+                    "
+                    bgcolor="#E3F2E7"
+                >
+                    <p
+                        class="s29"
+                        style="
+                            padding-top: 10pt;
+                            padding-right: 15pt;
+                            text-indent: 0pt;
+                            text-align: right;
+                        "
+                    >
+                        أطخ
+                    </p>
+                </td>
+                <td
+                    style="
+                        width: 56pt;
+                        border-top-style: solid;
+                        border-top-width: 1pt;
+                        border-top-color: #ffffff;
+                        border-left-style: solid;
+                        border-left-width: 2pt;
+                        border-left-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 2pt;
+                        border-bottom-color: #ffffff;
+                        border-right-style: solid;
+                        border-right-width: 2pt;
+                        border-right-color: #ffffff;
+                    "
+                    bgcolor="#FFF1E2"
+                >
+                    <p
+                        class="s29"
+                        style="
+                            padding-top: 10pt;
+                            padding-right: 6pt;
+                            text-indent: 0pt;
+                            text-align: right;
+                        "
+                    >
+                        ةحيحص
+                    </p>
+                </td>
+                <td
+                    style="
+                        width: 328pt;
+                        border-top-style: solid;
+                        border-top-width: 1pt;
+                        border-top-color: #ffffff;
+                        border-left-style: solid;
+                        border-left-width: 2pt;
+                        border-left-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 2pt;
+                        border-bottom-color: #ffffff;
+                        border-right-style: solid;
+                        border-right-width: 1pt;
+                        border-right-color: #ffffff;
+                    "
+                    bgcolor="#006EAA"
+                >
+                    <p
+                        class="s30"
+                        style="
+                            padding-top: 8pt;
+                            padding-right: 72pt;
+                            text-indent: 0pt;
+                            text-align: right;
+                        "
+                    >
+                        :<span class="s31"
+                            >أطخلا ةلمجلاو ةحيحصلا ةلمجلا ددح</span
+                        >
+                    </p>
+                </td>
+            </tr>
+            <tr style="height: 55pt">
+                <td
+                    style="
+                        width: 57pt;
+                        border-top-style: solid;
+                        border-top-width: 2pt;
+                        border-top-color: #ffffff;
+                        border-left-style: solid;
+                        border-left-width: 2pt;
+                        border-left-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 2pt;
+                        border-bottom-color: #ffffff;
+                        border-right-style: solid;
+                        border-right-width: 2pt;
+                        border-right-color: #ffffff;
+                    "
+                    bgcolor="#D8E6DC"
+                >
+                    <p
+                        style="
+                            padding-top: 8pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <br />
+                    </p>
+                    <p
+                        style="
+                            padding-left: 21pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <span />
+                    </p>
+                </td>
+                <td
+                    style="
+                        width: 56pt;
+                        border-top-style: solid;
+                        border-top-width: 2pt;
+                        border-top-color: #ffffff;
+                        border-left-style: solid;
+                        border-left-width: 2pt;
+                        border-left-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 2pt;
+                        border-bottom-color: #ffffff;
+                        border-right-style: solid;
+                        border-right-width: 2pt;
+                        border-right-color: #ffffff;
+                    "
+                    bgcolor="#F2E4CE"
+                >
+                    <p
+                        style="
+                            padding-top: 8pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <br />
+                    </p>
+                    <p
+                        style="
+                            padding-left: 21pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <span />
+                    </p>
+                </td>
+                <td
+                    style="
+                        width: 328pt;
+                        border-top-style: solid;
+                        border-top-width: 2pt;
+                        border-top-color: #ffffff;
+                        border-left-style: solid;
+                        border-left-width: 2pt;
+                        border-left-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 2pt;
+                        border-bottom-color: #ffffff;
+                        border-right-style: solid;
+                        border-right-width: 1pt;
+                        border-right-color: #ffffff;
+                    "
+                    bgcolor="#DBE5F1"
+                >
+                    <p
+                        class="s32"
+                        style="
+                            padding-top: 13pt;
+                            padding-left: 5pt;
+                            padding-right: 15pt;
+                            text-indent: -11pt;
+                            line-height: 90%;
+                            text-align: right;
+                        "
+                    >
+                        ةيامحل اهذيفنت متي يتلا تاسرامملا عيمج نع يناربيسلا
+                        نمألا حلطصم ربعي <span class="s33">.1 .</span>هب حرصملا
+                        ريغ لوصولا يف لثمتت يتلا تامجهلاو رطاخملا نم تامولعملا
+                    </p>
+                </td>
+            </tr>
+            <tr style="height: 55pt">
+                <td
+                    style="
+                        width: 57pt;
+                        border-top-style: solid;
+                        border-top-width: 2pt;
+                        border-top-color: #ffffff;
+                        border-left-style: solid;
+                        border-left-width: 2pt;
+                        border-left-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 2pt;
+                        border-bottom-color: #ffffff;
+                        border-right-style: solid;
+                        border-right-width: 2pt;
+                        border-right-color: #ffffff;
+                    "
+                    bgcolor="#D8E6DC"
+                >
+                    <p
+                        style="
+                            padding-top: 8pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <br />
+                    </p>
+                    <p
+                        style="
+                            padding-left: 21pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <span />
+                    </p>
+                </td>
+                <td
+                    style="
+                        width: 56pt;
+                        border-top-style: solid;
+                        border-top-width: 2pt;
+                        border-top-color: #ffffff;
+                        border-left-style: solid;
+                        border-left-width: 2pt;
+                        border-left-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 2pt;
+                        border-bottom-color: #ffffff;
+                        border-right-style: solid;
+                        border-right-width: 2pt;
+                        border-right-color: #ffffff;
+                    "
+                    bgcolor="#F2E4CE"
+                >
+                    <p
+                        style="
+                            padding-top: 8pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <br />
+                    </p>
+                    <p
+                        style="
+                            padding-left: 21pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <span />
+                    </p>
+                </td>
+                <td
+                    style="
+                        width: 328pt;
+                        border-top-style: solid;
+                        border-top-width: 2pt;
+                        border-top-color: #ffffff;
+                        border-left-style: solid;
+                        border-left-width: 2pt;
+                        border-left-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 2pt;
+                        border-bottom-color: #ffffff;
+                        border-right-style: solid;
+                        border-right-width: 1pt;
+                        border-right-color: #ffffff;
+                    "
+                    bgcolor="#DBE5F1"
+                >
+                    <p
+                        class="s32"
+                        style="
+                            padding-top: 13pt;
+                            padding-left: 5pt;
+                            padding-right: 15pt;
+                            text-indent: -11pt;
+                            line-height: 90%;
+                            text-align: right;
+                        "
+                    >
+                        هيجوتل امًمصم اجًذومن )ةيرسلاو لماكتلاو رفاوتلا( CIA
+                        ةيامحلا ثلثم دعي <span class="s33">.2 .</span>يناربيسلا
+                        نمألاب ةصاخلا تاسايسلا
+                    </p>
+                </td>
+            </tr>
+            <tr style="height: 55pt">
+                <td
+                    style="
+                        width: 57pt;
+                        border-top-style: solid;
+                        border-top-width: 2pt;
+                        border-top-color: #ffffff;
+                        border-left-style: solid;
+                        border-left-width: 2pt;
+                        border-left-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 2pt;
+                        border-bottom-color: #ffffff;
+                        border-right-style: solid;
+                        border-right-width: 2pt;
+                        border-right-color: #ffffff;
+                    "
+                    bgcolor="#D8E6DC"
+                >
+                    <p
+                        style="
+                            padding-top: 8pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <br />
+                    </p>
+                    <p
+                        style="
+                            padding-left: 21pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <span />
+                    </p>
+                </td>
+                <td
+                    style="
+                        width: 56pt;
+                        border-top-style: solid;
+                        border-top-width: 2pt;
+                        border-top-color: #ffffff;
+                        border-left-style: solid;
+                        border-left-width: 2pt;
+                        border-left-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 2pt;
+                        border-bottom-color: #ffffff;
+                        border-right-style: solid;
+                        border-right-width: 2pt;
+                        border-right-color: #ffffff;
+                    "
+                    bgcolor="#F2E4CE"
+                >
+                    <p
+                        style="
+                            padding-top: 8pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <br />
+                    </p>
+                    <p
+                        style="
+                            padding-left: 21pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <span />
+                    </p>
+                </td>
+                <td
+                    style="
+                        width: 328pt;
+                        border-top-style: solid;
+                        border-top-width: 2pt;
+                        border-top-color: #ffffff;
+                        border-left-style: solid;
+                        border-left-width: 2pt;
+                        border-left-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 2pt;
+                        border-bottom-color: #ffffff;
+                        border-right-style: solid;
+                        border-right-width: 1pt;
+                        border-right-color: #ffffff;
+                    "
+                    bgcolor="#DBE5F1"
+                >
+                    <p
+                        class="s32"
+                        style="
+                            padding-top: 13pt;
+                            padding-left: 5pt;
+                            padding-right: 15pt;
+                            text-indent: -11pt;
+                            line-height: 90%;
+                            text-align: right;
+                        "
+                    >
+                        اهنكلو ،اهتاببسمو ةميرجلا عفاود يف ةيديلقتلا مئارجلاو
+                        ةينورتكلإلا مئارجلا كرتشت
+                        <span class="s33">.3 .</span>ةليسولا يف فلتخت
+                    </p>
+                </td>
+            </tr>
+            <tr style="height: 55pt">
+                <td
+                    style="
+                        width: 57pt;
+                        border-top-style: solid;
+                        border-top-width: 2pt;
+                        border-top-color: #ffffff;
+                        border-left-style: solid;
+                        border-left-width: 2pt;
+                        border-left-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 2pt;
+                        border-bottom-color: #ffffff;
+                        border-right-style: solid;
+                        border-right-width: 2pt;
+                        border-right-color: #ffffff;
+                    "
+                    bgcolor="#D8E6DC"
+                >
+                    <p
+                        style="
+                            padding-top: 8pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <br />
+                    </p>
+                    <p
+                        style="
+                            padding-left: 21pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <span />
+                    </p>
+                </td>
+                <td
+                    style="
+                        width: 56pt;
+                        border-top-style: solid;
+                        border-top-width: 2pt;
+                        border-top-color: #ffffff;
+                        border-left-style: solid;
+                        border-left-width: 2pt;
+                        border-left-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 2pt;
+                        border-bottom-color: #ffffff;
+                        border-right-style: solid;
+                        border-right-width: 2pt;
+                        border-right-color: #ffffff;
+                    "
+                    bgcolor="#F2E4CE"
+                >
+                    <p
+                        style="
+                            padding-top: 8pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <br />
+                    </p>
+                    <p
+                        style="
+                            padding-left: 21pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <span />
+                    </p>
+                </td>
+                <td
+                    style="
+                        width: 328pt;
+                        border-top-style: solid;
+                        border-top-width: 2pt;
+                        border-top-color: #ffffff;
+                        border-left-style: solid;
+                        border-left-width: 2pt;
+                        border-left-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 2pt;
+                        border-bottom-color: #ffffff;
+                        border-right-style: solid;
+                        border-right-width: 1pt;
+                        border-right-color: #ffffff;
+                    "
+                    bgcolor="#DBE5F1"
+                >
+                    <p
+                        class="s32"
+                        style="
+                            padding-top: 13pt;
+                            padding-left: 5pt;
+                            padding-right: 15pt;
+                            text-indent: -11pt;
+                            line-height: 90%;
+                            text-align: right;
+                        "
+                    >
+                        تامولعملاب مكحتلل ةينمألا ريبادتلا ام صخش كهتني امدنع
+                        تانايبلا قارتخا ثدحي
+                        <span class="s33">.4 .</span>ةيصخشلا
+                    </p>
+                </td>
+            </tr>
+            <tr style="height: 55pt">
+                <td
+                    style="
+                        width: 57pt;
+                        border-top-style: solid;
+                        border-top-width: 2pt;
+                        border-top-color: #ffffff;
+                        border-left-style: solid;
+                        border-left-width: 2pt;
+                        border-left-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 2pt;
+                        border-bottom-color: #ffffff;
+                        border-right-style: solid;
+                        border-right-width: 2pt;
+                        border-right-color: #ffffff;
+                    "
+                    bgcolor="#D8E6DC"
+                >
+                    <p
+                        style="
+                            padding-top: 8pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <br />
+                    </p>
+                    <p
+                        style="
+                            padding-left: 21pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <span />
+                    </p>
+                </td>
+                <td
+                    style="
+                        width: 56pt;
+                        border-top-style: solid;
+                        border-top-width: 2pt;
+                        border-top-color: #ffffff;
+                        border-left-style: solid;
+                        border-left-width: 2pt;
+                        border-left-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 2pt;
+                        border-bottom-color: #ffffff;
+                        border-right-style: solid;
+                        border-right-width: 2pt;
+                        border-right-color: #ffffff;
+                    "
+                    bgcolor="#F2E4CE"
+                >
+                    <p
+                        style="
+                            padding-top: 8pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <br />
+                    </p>
+                    <p
+                        style="
+                            padding-left: 21pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <span />
+                    </p>
+                </td>
+                <td
+                    style="
+                        width: 328pt;
+                        border-top-style: solid;
+                        border-top-width: 2pt;
+                        border-top-color: #ffffff;
+                        border-left-style: solid;
+                        border-left-width: 2pt;
+                        border-left-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 2pt;
+                        border-bottom-color: #ffffff;
+                        border-right-style: solid;
+                        border-right-width: 1pt;
+                        border-right-color: #ffffff;
+                    "
+                    bgcolor="#DBE5F1"
+                >
+                    <p
+                        class="s32"
+                        style="
+                            padding-top: 13pt;
+                            padding-left: 5pt;
+                            padding-right: 15pt;
+                            text-indent: -11pt;
+                            line-height: 90%;
+                            text-align: right;
+                        "
+                    >
+                        لاحتنا وأ ةيوهلا ةقرس رطخ نم ليلقتلا يف ةيصخشلا كتامولعم
+                        ةيامح دعاست <span class="s33">.5 .</span>ةيصخشلا
+                    </p>
+                </td>
+            </tr>
+            <tr style="height: 55pt">
+                <td
+                    style="
+                        width: 57pt;
+                        border-top-style: solid;
+                        border-top-width: 2pt;
+                        border-top-color: #ffffff;
+                        border-left-style: solid;
+                        border-left-width: 2pt;
+                        border-left-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 2pt;
+                        border-bottom-color: #ffffff;
+                        border-right-style: solid;
+                        border-right-width: 2pt;
+                        border-right-color: #ffffff;
+                    "
+                    bgcolor="#D8E6DC"
+                >
+                    <p
+                        style="
+                            padding-top: 8pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <br />
+                    </p>
+                    <p
+                        style="
+                            padding-left: 21pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <span />
+                    </p>
+                </td>
+                <td
+                    style="
+                        width: 56pt;
+                        border-top-style: solid;
+                        border-top-width: 2pt;
+                        border-top-color: #ffffff;
+                        border-left-style: solid;
+                        border-left-width: 2pt;
+                        border-left-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 2pt;
+                        border-bottom-color: #ffffff;
+                        border-right-style: solid;
+                        border-right-width: 2pt;
+                        border-right-color: #ffffff;
+                    "
+                    bgcolor="#F2E4CE"
+                >
+                    <p
+                        style="
+                            padding-top: 8pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <br />
+                    </p>
+                    <p
+                        style="
+                            padding-left: 21pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <span />
+                    </p>
+                </td>
+                <td
+                    style="
+                        width: 328pt;
+                        border-top-style: solid;
+                        border-top-width: 2pt;
+                        border-top-color: #ffffff;
+                        border-left-style: solid;
+                        border-left-width: 2pt;
+                        border-left-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 2pt;
+                        border-bottom-color: #ffffff;
+                        border-right-style: solid;
+                        border-right-width: 1pt;
+                        border-right-color: #ffffff;
+                    "
+                    bgcolor="#DBE5F1"
+                >
+                    <p
+                        class="s32"
+                        style="
+                            padding-top: 13pt;
+                            padding-left: 5pt;
+                            padding-right: 15pt;
+                            text-indent: -11pt;
+                            line-height: 90%;
+                            text-align: right;
+                        "
+                    >
+                        خــــيراتو فتاهلا مقرو ناونعلاو لماكلا مسالا ىلع ةيصخشلا
+                        تامولعملا رصتقت <span class="s33">.6 .</span>داليملا
+                    </p>
+                </td>
+            </tr>
+            <tr style="height: 44pt">
+                <td
+                    style="
+                        width: 57pt;
+                        border-top-style: solid;
+                        border-top-width: 2pt;
+                        border-top-color: #ffffff;
+                        border-left-style: solid;
+                        border-left-width: 2pt;
+                        border-left-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 2pt;
+                        border-bottom-color: #ffffff;
+                        border-right-style: solid;
+                        border-right-width: 2pt;
+                        border-right-color: #ffffff;
+                    "
+                    bgcolor="#D8E6DC"
+                >
+                    <p
+                        style="
+                            padding-top: 2pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <br />
+                    </p>
+                    <p
+                        style="
+                            padding-left: 21pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <span />
+                    </p>
+                </td>
+                <td
+                    style="
+                        width: 56pt;
+                        border-top-style: solid;
+                        border-top-width: 2pt;
+                        border-top-color: #ffffff;
+                        border-left-style: solid;
+                        border-left-width: 2pt;
+                        border-left-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 2pt;
+                        border-bottom-color: #ffffff;
+                        border-right-style: solid;
+                        border-right-width: 2pt;
+                        border-right-color: #ffffff;
+                    "
+                    bgcolor="#F2E4CE"
+                >
+                    <p
+                        style="
+                            padding-top: 2pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <br />
+                    </p>
+                    <p
+                        style="
+                            padding-left: 21pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <span />
+                    </p>
+                </td>
+                <td
+                    style="
+                        width: 328pt;
+                        border-top-style: solid;
+                        border-top-width: 2pt;
+                        border-top-color: #ffffff;
+                        border-left-style: solid;
+                        border-left-width: 2pt;
+                        border-left-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 2pt;
+                        border-bottom-color: #ffffff;
+                        border-right-style: solid;
+                        border-right-width: 1pt;
+                        border-right-color: #ffffff;
+                    "
+                    bgcolor="#DBE5F1"
+                >
+                    <p
+                        class="s33"
+                        style="
+                            padding-top: 14pt;
+                            padding-right: 4pt;
+                            text-indent: 0pt;
+                            text-align: right;
+                        "
+                    >
+                        .<span class="s32"
+                            >طيسولا موجه يف تاقاطنلا ءامسأ رييغت نكمي </span
+                        >.7
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <p style="text-indent: 0pt; text-align: left"><br /></p>
+        <p style="padding-top: 10pt; text-indent: 0pt; text-align: left">
+            <br />
+        </p>
+        <p style="text-indent: 0pt; line-height: 1pt; text-align: left">
+            <span />
+        </p>
+        <p
+            class="s27"
+            style="padding-left: 20pt; text-indent: 0pt; text-align: left"
+        >
+            <span /> <span />
+        </p>
+        <p style="text-indent: 0pt; text-align: left"><br /></p>
+        <p style="text-indent: 0pt; line-height: 1pt; text-align: left">
+            <span />
+        </p>
+        <p style="padding-top: 20pt; text-indent: 0pt; text-align: left">
+            <br />
+        </p>
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p
+            class="s28"
+            style="padding-left: 494pt; text-indent: 0pt; text-align: right"
+        >
+            2 بيردت
+        </p>
+        <p
+            class="s14"
+            style="
+                padding-top: 15pt;
+                padding-left: 100pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            اذه قيبطت ةيفيك حضو مث ،CIA ةيامحلا ثلثم اهنم نوكتي يتلا رصانعلا
+            حرشلاب حضو <span class="s34">.</span>ATM يلآلا فارصلا ةمظنأ ىلع
+            جذومنلا
+        </p>
+        <p style="text-indent: 0pt; text-align: left"><br /></p>
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p
+            class="s7"
+            style="padding-left: 137pt; text-indent: 0pt; text-align: right"
+        >
+            22
+        </p>
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p
+            class="s1"
+            style="padding-left: 20pt; text-indent: 0pt; text-align: left"
+        >
+            <span /> <span />
+        </p>
+        <p style="text-indent: 0pt; text-align: left"><br /></p>
+        <p style="text-indent: 0pt; line-height: 1pt; text-align: left">
+            <span />
+        </p>
+        <p style="text-indent: 0pt; text-align: left"><br /></p>
+        <p style="text-indent: 0pt; text-align: left"><br /></p>
+        <p
+            class="s35"
+            style="padding-left: 37pt; text-indent: 0pt; text-align: left"
+        ></p>
+        <p style="padding-top: 11pt; text-indent: 0pt; text-align: left">
+            <br />
+        </p>
+        <p style="text-indent: 0pt; line-height: 1pt; text-align: left">
+            <span />
+        </p>
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p
+            class="s28"
+            style="
+                padding-top: 11pt;
+                padding-left: 13pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            3 بيردت
+        </p>
+        <p
+            class="s14"
+            style="
+                padding-top: 15pt;
+                padding-left: 13pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            مت فيك فص <span class="s36">.</span>)Man In the middle( طيسولا موجه
+            ةلاح ثدحأ نع تنرتنإلا ىلع ثحبا لثم موجه عنم نكمي فيك
+            <span class="s36">.</span>يناربيسلا نمألا ريبادت ةيمهأ ىلع زيكرتلا
+            لالخ نم موجهلا ذيفنت ؟اذه
+        </p>
+        <p style="text-indent: 0pt; text-align: left" />
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p
+            class="s28"
+            style="
+                padding-top: 11pt;
+                padding-left: 13pt;
+                text-indent: 0pt;
+                text-align: right;
+            "
+        >
+            4 بيردت
+        </p>
+        <p
+            class="s14"
+            style="
+                padding-top: 15pt;
+                padding-left: 13pt;
+                text-indent: 0pt;
+                line-height: 94%;
+                text-align: right;
+            "
+        >
+            ةيامحل اهذاختا كنكمي يتلا تاءارجإلاب ةمئاق بتكا ،كلذ دعب
+            <span class="s36">.</span>ينمألا قارتخالا ام حرشا
+            <span class="s36">.</span>ةينمألا تاكاهتنالا نم كسفن
+        </p>
+        <p style="text-indent: 0pt; text-align: left" />
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p
+            class="s7"
+            style="text-indent: 0pt; line-height: 14pt; text-align: left"
+        >
+            23
+        </p>
+        <p style="text-indent: 0pt; text-align: left" />
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p
+            class="s1"
+            style="padding-left: 20pt; text-indent: 0pt; text-align: left"
+        >
+            <span /> <span />
+        </p>
+        <p style="text-indent: 0pt; text-align: left"><br /></p>
+        <p style="text-indent: 0pt; line-height: 1pt; text-align: left">
+            <span />
+        </p>
+        <p style="padding-top: 20pt; text-indent: 0pt; text-align: left">
+            <br />
+        </p>
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p
+            class="s28"
+            style="padding-left: 494pt; text-indent: 0pt; text-align: right"
+        >
+            5 بيردت
+        </p>
+        <p style="padding-top: 4pt; text-indent: 0pt; text-align: left">
+            <br />
+        </p>
+        <table
+            style="border-collapse: collapse; margin-left: 102.496pt"
+            cellspacing="0"
+        >
+            <tr style="height: 28pt">
+                <td
+                    style="
+                        width: 439pt;
+                        border-bottom-style: solid;
+                        border-bottom-width: 2pt;
+                        border-bottom-color: #ffffff;
+                    "
+                    colspan="3"
+                    bgcolor="#006EAA"
+                >
+                    <p
+                        class="s30"
+                        style="
+                            padding-top: 4pt;
+                            padding-left: 164pt;
+                            padding-right: 164pt;
+                            text-indent: 0pt;
+                            text-align: right;
+                        "
+                    >
+                        :<span class="s31">ةحيحصلا ةباجإلا رتخا</span>
+                    </p>
+                </td>
+            </tr>
+            <tr style="height: 44pt">
+                <td
+                    style="
+                        width: 34pt;
+                        border-top-style: solid;
+                        border-top-width: 2pt;
+                        border-top-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 1pt;
+                        border-bottom-color: #ffffff;
+                        border-right-style: solid;
+                        border-right-width: 2pt;
+                        border-right-color: #ffffff;
+                    "
+                    bgcolor="#C9CFE3"
+                >
+                    <p
+                        style="
+                            padding-top: 2pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <br />
+                    </p>
+                    <p
+                        style="
+                            padding-left: 10pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <span />
+                    </p>
+                </td>
+                <td
+                    style="
+                        width: 167pt;
+                        border-top-style: solid;
+                        border-top-width: 2pt;
+                        border-top-color: #ffffff;
+                        border-left-style: solid;
+                        border-left-width: 2pt;
+                        border-left-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 1pt;
+                        border-bottom-color: #ffffff;
+                        border-right-style: solid;
+                        border-right-width: 2pt;
+                        border-right-color: #ffffff;
+                    "
+                    bgcolor="#D4DAEF"
+                >
+                    <p
+                        class="s33"
+                        style="
+                            padding-top: 13pt;
+                            padding-right: 4pt;
+                            text-indent: 0pt;
+                            text-align: right;
+                        "
+                    >
+                        .<span class="s32">ةيرسلا</span>
+                    </p>
+                </td>
+                <td
+                    style="
+                        width: 238pt;
+                        border-top-style: solid;
+                        border-top-width: 2pt;
+                        border-top-color: #ffffff;
+                        border-left-style: solid;
+                        border-left-width: 2pt;
+                        border-left-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 2pt;
+                        border-bottom-color: #ffffff;
+                    "
+                    rowspan="4"
+                    bgcolor="#DBE5F1"
+                >
+                    <p style="text-indent: 0pt; text-align: left"><br /></p>
+                    <p
+                        class="s32"
+                        style="
+                            padding-left: 4pt;
+                            padding-right: 16pt;
+                            text-indent: -11pt;
+                            line-height: 90%;
+                            text-align: right;
+                        "
+                    >
+                        طقف اهب نيينعملا صاخشألل تامولعملاو تانايبلا ةحاتإ
+                        <span class="s33">.1 :</span>موهفم وه اهيلع عالطالاب مهل
+                        حامسلاو
+                    </p>
+                </td>
+            </tr>
+            <tr style="height: 44pt">
+                <td
+                    style="
+                        width: 34pt;
+                        border-top-style: solid;
+                        border-top-width: 1pt;
+                        border-top-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 1pt;
+                        border-bottom-color: #ffffff;
+                        border-right-style: solid;
+                        border-right-width: 2pt;
+                        border-right-color: #ffffff;
+                    "
+                    bgcolor="#D8E6DC"
+                >
+                    <p
+                        style="
+                            padding-top: 2pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <br />
+                    </p>
+                    <p
+                        style="
+                            padding-left: 10pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <span />
+                    </p>
+                </td>
+                <td
+                    style="
+                        width: 167pt;
+                        border-top-style: solid;
+                        border-top-width: 1pt;
+                        border-top-color: #ffffff;
+                        border-left-style: solid;
+                        border-left-width: 2pt;
+                        border-left-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 1pt;
+                        border-bottom-color: #ffffff;
+                        border-right-style: solid;
+                        border-right-width: 2pt;
+                        border-right-color: #ffffff;
+                    "
+                    bgcolor="#E3F2E7"
+                >
+                    <p
+                        class="s33"
+                        style="
+                            padding-top: 13pt;
+                            padding-right: 4pt;
+                            text-indent: 0pt;
+                            text-align: right;
+                        "
+                    >
+                        .<span class="s32">لماكتلا</span>
+                    </p>
+                </td>
+            </tr>
+            <tr style="height: 44pt">
+                <td
+                    style="
+                        width: 34pt;
+                        border-top-style: solid;
+                        border-top-width: 1pt;
+                        border-top-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 1pt;
+                        border-bottom-color: #ffffff;
+                        border-right-style: solid;
+                        border-right-width: 2pt;
+                        border-right-color: #ffffff;
+                    "
+                    bgcolor="#F2E4CE"
+                >
+                    <p
+                        style="
+                            padding-top: 2pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <br />
+                    </p>
+                    <p
+                        style="
+                            padding-left: 10pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <span />
+                    </p>
+                </td>
+                <td
+                    style="
+                        width: 167pt;
+                        border-top-style: solid;
+                        border-top-width: 1pt;
+                        border-top-color: #ffffff;
+                        border-left-style: solid;
+                        border-left-width: 2pt;
+                        border-left-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 1pt;
+                        border-bottom-color: #ffffff;
+                        border-right-style: solid;
+                        border-right-width: 2pt;
+                        border-right-color: #ffffff;
+                    "
+                    bgcolor="#FFF1E2"
+                >
+                    <p
+                        class="s33"
+                        style="
+                            padding-top: 13pt;
+                            padding-right: 4pt;
+                            text-indent: 0pt;
+                            text-align: right;
+                        "
+                    >
+                        .<span class="s32">رفاوتلا</span>
+                    </p>
+                </td>
+            </tr>
+            <tr style="height: 44pt">
+                <td
+                    style="
+                        width: 34pt;
+                        border-top-style: solid;
+                        border-top-width: 1pt;
+                        border-top-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 2pt;
+                        border-bottom-color: #ffffff;
+                        border-right-style: solid;
+                        border-right-width: 2pt;
+                        border-right-color: #ffffff;
+                    "
+                    bgcolor="#E9CFD0"
+                >
+                    <p
+                        style="
+                            padding-top: 2pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <br />
+                    </p>
+                    <p
+                        style="
+                            padding-left: 10pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <span />
+                    </p>
+                </td>
+                <td
+                    style="
+                        width: 167pt;
+                        border-top-style: solid;
+                        border-top-width: 1pt;
+                        border-top-color: #ffffff;
+                        border-left-style: solid;
+                        border-left-width: 2pt;
+                        border-left-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 2pt;
+                        border-bottom-color: #ffffff;
+                        border-right-style: solid;
+                        border-right-width: 2pt;
+                        border-right-color: #ffffff;
+                    "
+                    bgcolor="#EFDCDD"
+                >
+                    <p
+                        class="s33"
+                        style="
+                            padding-top: 13pt;
+                            padding-right: 4pt;
+                            text-indent: 0pt;
+                            text-align: right;
+                        "
+                    >
+                        .<span class="s32">عونتلا</span>
+                    </p>
+                </td>
+            </tr>
+            <tr style="height: 44pt">
+                <td
+                    style="
+                        width: 34pt;
+                        border-top-style: solid;
+                        border-top-width: 2pt;
+                        border-top-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 1pt;
+                        border-bottom-color: #ffffff;
+                        border-right-style: solid;
+                        border-right-width: 2pt;
+                        border-right-color: #ffffff;
+                    "
+                    bgcolor="#C9CFE3"
+                >
+                    <p
+                        style="
+                            padding-top: 2pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <br />
+                    </p>
+                    <p
+                        style="
+                            padding-left: 10pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <span />
+                    </p>
+                </td>
+                <td
+                    style="
+                        width: 167pt;
+                        border-top-style: solid;
+                        border-top-width: 2pt;
+                        border-top-color: #ffffff;
+                        border-left-style: solid;
+                        border-left-width: 2pt;
+                        border-left-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 1pt;
+                        border-bottom-color: #ffffff;
+                        border-right-style: solid;
+                        border-right-width: 2pt;
+                        border-right-color: #ffffff;
+                    "
+                    bgcolor="#D4DAEF"
+                >
+                    <p
+                        class="s33"
+                        style="
+                            padding-top: 13pt;
+                            padding-right: 4pt;
+                            text-indent: 0pt;
+                            text-align: right;
+                        "
+                    >
+                        .<span class="s32">يطايتحالا خسنلا</span>
+                    </p>
+                </td>
+                <td
+                    style="
+                        width: 238pt;
+                        border-top-style: solid;
+                        border-top-width: 2pt;
+                        border-top-color: #ffffff;
+                        border-left-style: solid;
+                        border-left-width: 2pt;
+                        border-left-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 2pt;
+                        border-bottom-color: #ffffff;
+                    "
+                    rowspan="4"
+                    bgcolor="#DBE5F1"
+                >
+                    <p style="text-indent: 0pt; text-align: left"><br /></p>
+                    <p
+                        class="s33"
+                        style="
+                            padding-right: 5pt;
+                            text-indent: 0pt;
+                            text-align: right;
+                        "
+                    >
+                        :<span class="s32"
+                            >تامولعملاو تانايبلا لماكت ىلع ظافحلا بيلاسأ نم </span
+                        >.2
+                    </p>
+                </td>
+            </tr>
+            <tr style="height: 44pt">
+                <td
+                    style="
+                        width: 34pt;
+                        border-top-style: solid;
+                        border-top-width: 1pt;
+                        border-top-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 1pt;
+                        border-bottom-color: #ffffff;
+                        border-right-style: solid;
+                        border-right-width: 2pt;
+                        border-right-color: #ffffff;
+                    "
+                    bgcolor="#D8E6DC"
+                >
+                    <p
+                        style="
+                            padding-top: 2pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <br />
+                    </p>
+                    <p
+                        style="
+                            padding-left: 10pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <span />
+                    </p>
+                </td>
+                <td
+                    style="
+                        width: 167pt;
+                        border-top-style: solid;
+                        border-top-width: 1pt;
+                        border-top-color: #ffffff;
+                        border-left-style: solid;
+                        border-left-width: 2pt;
+                        border-left-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 1pt;
+                        border-bottom-color: #ffffff;
+                        border-right-style: solid;
+                        border-right-width: 2pt;
+                        border-right-color: #ffffff;
+                    "
+                    bgcolor="#E3F2E7"
+                >
+                    <p
+                        class="s33"
+                        style="
+                            padding-top: 13pt;
+                            padding-right: 4pt;
+                            text-indent: 0pt;
+                            text-align: right;
+                        "
+                    >
+                        .<span class="s32">ماظنلا تاثيدحت</span>
+                    </p>
+                </td>
+            </tr>
+            <tr style="height: 44pt">
+                <td
+                    style="
+                        width: 34pt;
+                        border-top-style: solid;
+                        border-top-width: 1pt;
+                        border-top-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 1pt;
+                        border-bottom-color: #ffffff;
+                        border-right-style: solid;
+                        border-right-width: 2pt;
+                        border-right-color: #ffffff;
+                    "
+                    bgcolor="#F2E4CE"
+                >
+                    <p
+                        style="
+                            padding-top: 2pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <br />
+                    </p>
+                    <p
+                        style="
+                            padding-left: 10pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <span />
+                    </p>
+                </td>
+                <td
+                    style="
+                        width: 167pt;
+                        border-top-style: solid;
+                        border-top-width: 1pt;
+                        border-top-color: #ffffff;
+                        border-left-style: solid;
+                        border-left-width: 2pt;
+                        border-left-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 1pt;
+                        border-bottom-color: #ffffff;
+                        border-right-style: solid;
+                        border-right-width: 2pt;
+                        border-right-color: #ffffff;
+                    "
+                    bgcolor="#FFF1E2"
+                >
+                    <p
+                        class="s33"
+                        style="
+                            padding-top: 13pt;
+                            padding-right: 4pt;
+                            text-indent: 0pt;
+                            text-align: right;
+                        "
+                    >
+                        .<span class="s32">رورملا ةملكو مدختسملا مسا</span>
+                    </p>
+                </td>
+            </tr>
+            <tr style="height: 44pt">
+                <td
+                    style="
+                        width: 34pt;
+                        border-top-style: solid;
+                        border-top-width: 1pt;
+                        border-top-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 2pt;
+                        border-bottom-color: #ffffff;
+                        border-right-style: solid;
+                        border-right-width: 2pt;
+                        border-right-color: #ffffff;
+                    "
+                    bgcolor="#E9CFD0"
+                >
+                    <p
+                        style="
+                            padding-top: 2pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <br />
+                    </p>
+                    <p
+                        style="
+                            padding-left: 10pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <span />
+                    </p>
+                </td>
+                <td
+                    style="
+                        width: 167pt;
+                        border-top-style: solid;
+                        border-top-width: 1pt;
+                        border-top-color: #ffffff;
+                        border-left-style: solid;
+                        border-left-width: 2pt;
+                        border-left-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 2pt;
+                        border-bottom-color: #ffffff;
+                        border-right-style: solid;
+                        border-right-width: 2pt;
+                        border-right-color: #ffffff;
+                    "
+                    bgcolor="#EFDCDD"
+                >
+                    <p
+                        class="s33"
+                        style="
+                            padding-top: 13pt;
+                            padding-right: 4pt;
+                            text-indent: 0pt;
+                            text-align: right;
+                        "
+                    >
+                        .<span class="s32">تايحالصلاو تانوذألا</span>
+                    </p>
+                </td>
+            </tr>
+            <tr style="height: 44pt">
+                <td
+                    style="
+                        width: 34pt;
+                        border-top-style: solid;
+                        border-top-width: 2pt;
+                        border-top-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 1pt;
+                        border-bottom-color: #ffffff;
+                        border-right-style: solid;
+                        border-right-width: 2pt;
+                        border-right-color: #ffffff;
+                    "
+                    bgcolor="#C9CFE3"
+                >
+                    <p
+                        style="
+                            padding-top: 2pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <br />
+                    </p>
+                    <p
+                        style="
+                            padding-left: 10pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <span />
+                    </p>
+                </td>
+                <td
+                    style="
+                        width: 167pt;
+                        border-top-style: solid;
+                        border-top-width: 2pt;
+                        border-top-color: #ffffff;
+                        border-left-style: solid;
+                        border-left-width: 2pt;
+                        border-left-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 1pt;
+                        border-bottom-color: #ffffff;
+                        border-right-style: solid;
+                        border-right-width: 2pt;
+                        border-right-color: #ffffff;
+                    "
+                    bgcolor="#D4DAEF"
+                >
+                    <p
+                        class="s33"
+                        style="
+                            padding-top: 13pt;
+                            padding-right: 4pt;
+                            text-indent: 0pt;
+                            text-align: right;
+                        "
+                    >
+                        .<span class="s32">ينورتكلإلا لايتحالا</span>
+                    </p>
+                </td>
+                <td
+                    style="
+                        width: 238pt;
+                        border-top-style: solid;
+                        border-top-width: 2pt;
+                        border-top-color: #ffffff;
+                        border-left-style: solid;
+                        border-left-width: 2pt;
+                        border-left-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 2pt;
+                        border-bottom-color: #ffffff;
+                    "
+                    rowspan="4"
+                    bgcolor="#DBE5F1"
+                >
+                    <p style="text-indent: 0pt; text-align: left"><br /></p>
+                    <p
+                        class="s32"
+                        style="
+                            padding-left: 4pt;
+                            padding-right: 16pt;
+                            text-indent: -11pt;
+                            text-align: right;
+                        "
+                    >
+                        وأ ةيروفلا لئاــــــــسرلا وأ يــــــــنورتكلإلا ديربلا
+                        رــــــــبع تاديدهتلا <span class="s33">.3 </span>وه
+                        يعامتجالا لصاوتلا لئاــــــــسو ربع ةئيــــــــسملا
+                        تاكراشملا <span class="s33">:</span>موهفم
+                    </p>
+                </td>
+            </tr>
+            <tr style="height: 44pt">
+                <td
+                    style="
+                        width: 34pt;
+                        border-top-style: solid;
+                        border-top-width: 1pt;
+                        border-top-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 1pt;
+                        border-bottom-color: #ffffff;
+                        border-right-style: solid;
+                        border-right-width: 2pt;
+                        border-right-color: #ffffff;
+                    "
+                    bgcolor="#D8E6DC"
+                >
+                    <p
+                        style="
+                            padding-top: 2pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <br />
+                    </p>
+                    <p
+                        style="
+                            padding-left: 10pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <span />
+                    </p>
+                </td>
+                <td
+                    style="
+                        width: 167pt;
+                        border-top-style: solid;
+                        border-top-width: 1pt;
+                        border-top-color: #ffffff;
+                        border-left-style: solid;
+                        border-left-width: 2pt;
+                        border-left-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 1pt;
+                        border-bottom-color: #ffffff;
+                        border-right-style: solid;
+                        border-right-width: 2pt;
+                        border-right-color: #ffffff;
+                    "
+                    bgcolor="#E3F2E7"
+                >
+                    <p
+                        class="s33"
+                        style="
+                            padding-top: 13pt;
+                            padding-right: 4pt;
+                            text-indent: 0pt;
+                            text-align: right;
+                        "
+                    >
+                        .<span class="s32">ينورتكلإلا للستلا</span>
+                    </p>
+                </td>
+            </tr>
+            <tr style="height: 44pt">
+                <td
+                    style="
+                        width: 34pt;
+                        border-top-style: solid;
+                        border-top-width: 1pt;
+                        border-top-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 1pt;
+                        border-bottom-color: #ffffff;
+                        border-right-style: solid;
+                        border-right-width: 2pt;
+                        border-right-color: #ffffff;
+                    "
+                    bgcolor="#F2E4CE"
+                >
+                    <p
+                        style="
+                            padding-top: 2pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <br />
+                    </p>
+                    <p
+                        style="
+                            padding-left: 10pt;
+                            text-indent: 0pt;
+                            text-align: left;
+                        "
+                    >
+                        <span />
+                    </p>
+                </td>
+                <td
+                    style="
+                        width: 167pt;
+                        border-top-style: solid;
+                        border-top-width: 1pt;
+                        border-top-color: #ffffff;
+                        border-left-style: solid;
+                        border-left-width: 2pt;
+                        border-left-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 1pt;
+                        border-bottom-color: #ffffff;
+                        border-right-style: solid;
+                        border-right-width: 2pt;
+                        border-right-color: #ffffff;
+                    "
+                    bgcolor="#FFF1E2"
+                >
+                    <p
+                        class="s33"
+                        style="
+                            padding-top: 13pt;
+                            padding-right: 4pt;
+                            text-indent: 0pt;
+                            text-align: right;
+                        "
+                    >
+                        .<span class="s32">تنرتنإلا ربع تاقياضملا</span>
+                    </p>
+                </td>
+            </tr>
+            <tr style="height: 44pt">
+                <td
+                    style="
+                        width: 34pt;
+                        border-top-style: solid;
+                        border-top-width: 1pt;
+                        border-top-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 2pt;
+                        border-bottom-color: #ffffff;
+                        border-right-style: solid;
+                        border-right-width: 2pt;
+                        border-right-color: #ffffff;
+                    "
+                    bgcolor="#E9CFD0"
+                >
+                    <p style="text-indent: 0pt; text-align: left"><br /></p>
+                </td>
+                <td
+                    style="
+                        width: 167pt;
+                        border-top-style: solid;
+                        border-top-width: 1pt;
+                        border-top-color: #ffffff;
+                        border-left-style: solid;
+                        border-left-width: 2pt;
+                        border-left-color: #ffffff;
+                        border-bottom-style: solid;
+                        border-bottom-width: 2pt;
+                        border-bottom-color: #ffffff;
+                        border-right-style: solid;
+                        border-right-width: 2pt;
+                        border-right-color: #ffffff;
+                    "
+                    bgcolor="#EFDCDD"
+                >
+                    <p
+                        class="s33"
+                        style="
+                            padding-top: 13pt;
+                            padding-right: 4pt;
+                            text-indent: 0pt;
+                            text-align: right;
+                        "
+                    >
+                        .<span class="s32">ةيصوصخلا كاهتنا</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <p style="padding-top: 1pt; text-indent: 0pt; text-align: left">
+            <br />
+        </p>
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p style="text-indent: 0pt; text-align: left"><span /></p>
+        <p
+            class="s7"
+            style="padding-left: 137pt; text-indent: 0pt; text-align: right"
+        >
+            24
+        </p>
+        <p style="padding-top: 10pt; text-indent: 0pt; text-align: left">
+            <br />
+        </p>
+        <p style="text-indent: 0pt; line-height: 1pt; text-align: left">
+            <span />
+        </p>
+    </body>
+</html>
